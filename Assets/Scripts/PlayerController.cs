@@ -64,6 +64,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
@@ -72,6 +73,8 @@ public class PlayerController : MonoBehaviour
     private float translation;
     private float straffe;
 
+
+    private List<string> data = new List<string>();
     // Use this for initialization
     void Start()
     {
@@ -92,6 +95,28 @@ public class PlayerController : MonoBehaviour
         {
             // turn on the cursor
             Cursor.lockState = CursorLockMode.None;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            OutputData();
+        }
+    }
+
+    private void OutputData()
+    {
+        foreach(var x in data)
+        {
+            print(x.ToString());
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.collider.tag == "Test Point")
+        {
+            collision.collider.gameObject.SetActive(false);
+            data.Add(collision.collider.name);
         }
     }
 }
