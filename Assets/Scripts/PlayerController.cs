@@ -61,6 +61,8 @@
  * date : 2017/12
  */
 
+/////FIRST PERSON***********************************************************************************************************************
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -105,7 +107,7 @@ public class PlayerController : MonoBehaviour
 
     private void OutputData()
     {
-        foreach(var x in data)
+        foreach (var x in data)
         {
             print(x.ToString());
         }
@@ -113,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.collider.tag == "Test Point")
+        if (collision.collider.tag == "Test Point")
         {
             collision.collider.gameObject.SetActive(false);
             data.Add(collision.collider.name);
