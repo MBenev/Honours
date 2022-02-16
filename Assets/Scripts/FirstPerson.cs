@@ -87,12 +87,21 @@ public class FirstPerson : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.collider.tag == "Test Point")
+        if(other.tag == "Test Point")
         {
-            collision.collider.gameObject.SetActive(false);
-            data.Add(collision.collider.name);
+            other.gameObject.SetActive(false);
+            data.Add(other.name);
         }
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.collider.tag == "Test Point")
+    //    {
+    //        collision.collider.gameObject.SetActive(false);
+    //        data.Add(collision.collider.name);
+    //    }
+    //}
 }
