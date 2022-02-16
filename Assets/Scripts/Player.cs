@@ -4,8 +4,10 @@ using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 
-public class FirstPerson : MonoBehaviour
+public class Player : MonoBehaviour
 {
+    private static Player _instance;
+
     public float walkingSpeed = 7.5f;
     public float runningSpeed = 11.5f;
     public float jumpSpeed = 8.0f;
@@ -19,10 +21,31 @@ public class FirstPerson : MonoBehaviour
     float rotationX = 0;
 
 
+
+    [SerializeField] private int collected;
+
     private List<string> data = new List<string>();
 
     [HideInInspector]
     public bool canMove = true;
+
+    public static Player Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                Debug.LogError("Player is null");
+            }
+            return _instance;
+        }
+    }
+
+    void Awake()
+    {
+        _instance = this;
+    }
+
 
     void Start()
     {
@@ -79,6 +102,16 @@ public class FirstPerson : MonoBehaviour
         }
     }
 
+    public void AddCollected()
+    {
+        collected++;
+    }
+
+    public void ClearCollected()
+    {
+        collected = 0;
+    }
+
     private void OutputData()
     {
         foreach (var x in data)
@@ -93,6 +126,11 @@ public class FirstPerson : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             data.Add(other.name);
+        }
+        if(other.tag == "Collectable")
+        {
+            AddCollected();
+            other.gameObject.SetActive(false);
         }
     }
 
