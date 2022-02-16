@@ -18,6 +18,9 @@ public class FirstPerson : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
 
+
+    private List<string> data = new List<string>();
+
     [HideInInspector]
     public bool canMove = true;
 
@@ -69,6 +72,27 @@ public class FirstPerson : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            OutputData();
+        }
+    }
+
+    private void OutputData()
+    {
+        foreach (var x in data)
+        {
+            print(x.ToString());
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "Test Point")
+        {
+            collision.collider.gameObject.SetActive(false);
+            data.Add(collision.collider.name);
         }
     }
 }
