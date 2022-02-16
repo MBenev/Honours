@@ -984,3 +984,263 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-02-16 23:34:41.745 Unity[21851:1630471] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003049f80 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.216 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2217ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1942ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1132ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (872ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 2.244250 ms (FindLiveObjects: 0.079125 ms CreateObjectMapping: 0.038333 ms MarkObjects: 2.112667 ms  DeleteObjects: 0.013209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 497.420946 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs
+  artifactKey: Guid(eca31f31c914e0047af3e017ff06f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs using Guid(eca31f31c914e0047af3e017ff06f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4263d072915919aba1afdafc677444e') in 0.005583 seconds 
+  Import took 0.008148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025612 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems
+  artifactKey: Guid(0225b01194a2b874aab88b157a916847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems using Guid(0225b01194a2b874aab88b157a916847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb80d67756756f7a6e8fa2b6a526daf') in 0.002292 seconds 
+  Import took 0.007940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051101 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab
+  artifactKey: Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab using Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f49022633efd9807f501ec48e9bcea') in 0.167531 seconds 
+  Import took 0.170451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Green.prefab
+  artifactKey: Guid(cf80b8a50d670a242a669dd5146c189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Green.prefab using Guid(cf80b8a50d670a242a669dd5146c189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a064f37dd0e5a9374fd34cb5cb90bc') in 0.012177 seconds 
+  Import took 0.014584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab
+  artifactKey: Guid(30b32b7e817116548af38dbf12fb57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab using Guid(30b32b7e817116548af38dbf12fb57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4765f0dafdb67773a4a8773d8efb0b9d') in 0.007758 seconds 
+  Import took 0.010439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab
+  artifactKey: Guid(908e3427a87e203428312e7911a4c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab using Guid(908e3427a87e203428312e7911a4c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714633138b85c722fe9f71a052381d4c') in 0.008909 seconds 
+  Import took 0.011385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Purple.prefab
+  artifactKey: Guid(cfe0dc650593d0b4b853a334bb023534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Purple.prefab using Guid(cfe0dc650593d0b4b853a334bb023534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d278037dc53568c54f8828fd4a689e0') in 0.008046 seconds 
+  Import took 0.010802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab
+  artifactKey: Guid(1e8a24275f78368469eb95764e51b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab using Guid(1e8a24275f78368469eb95764e51b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0230644722ff9e3141d7b2e11e68b4') in 0.008342 seconds 
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab
+  artifactKey: Guid(a46ec114d125b3743bcceb157df289c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab using Guid(a46ec114d125b3743bcceb157df289c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665857ba01824a60675bfbc8d58b49f0') in 0.007552 seconds 
+  Import took 0.010196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab
+  artifactKey: Guid(2b1b0183561415e46bf2169710c3c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab using Guid(2b1b0183561415e46bf2169710c3c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bad4fa5699a9710a5477343de5f21ef') in 0.006932 seconds 
+  Import took 0.009445 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-02-16 23:37:37.815 Unity[21851:1630471] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000030534f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2352ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2059ms)
+			LoadAssemblies (170ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (930ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1986 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2504.
+Total: 2.220875 ms (FindLiveObjects: 0.076250 ms CreateObjectMapping: 0.037417 ms MarkObjects: 2.086041 ms  DeleteObjects: 0.020375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 155.120409 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab
+  artifactKey: Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Blue.prefab using Guid(32923e0a5e036d04fa9be7ef9cc548e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685c6352a9705c1ecf0ffa9f31189561') in 0.138570 seconds 
+  Import took 0.141787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab
+  artifactKey: Guid(1e8a24275f78368469eb95764e51b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Green.prefab using Guid(1e8a24275f78368469eb95764e51b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9d6c474ce5f1364769a44e61094907') in 0.012198 seconds 
+  Import took 0.014615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.916841 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab
+  artifactKey: Guid(a46ec114d125b3743bcceb157df289c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Purple.prefab using Guid(a46ec114d125b3743bcceb157df289c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca2fc8dafc2c9490d6255ee7b896e0e') in 0.008584 seconds 
+  Import took 0.011728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.664239 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab
+  artifactKey: Guid(30b32b7e817116548af38dbf12fb57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem1Red.prefab using Guid(30b32b7e817116548af38dbf12fb57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f58b305ab1c390b659bde779d376efc') in 0.008083 seconds 
+  Import took 0.011173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.783438 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab
+  artifactKey: Guid(2b1b0183561415e46bf2169710c3c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Blue.prefab using Guid(2b1b0183561415e46bf2169710c3c00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a86a1df379940002dbda4236ac81a1') in 0.008498 seconds 
+  Import took 0.011640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.079208 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Green.prefab
+  artifactKey: Guid(cf80b8a50d670a242a669dd5146c189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Green.prefab using Guid(cf80b8a50d670a242a669dd5146c189a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3526a26509e266a6aa351436a60d3afa') in 0.008866 seconds 
+  Import took 0.012020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.047433 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Purple.prefab
+  artifactKey: Guid(cfe0dc650593d0b4b853a334bb023534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Purple.prefab using Guid(cfe0dc650593d0b4b853a334bb023534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334affa1c30482ae8bc723eaae9800d') in 0.009325 seconds 
+  Import took 0.012534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.582502 seconds.
+  path: Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab
+  artifactKey: Guid(908e3427a87e203428312e7911a4c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleCollectiblesPack/Prefabs/Gems/Gem2Red.prefab using Guid(908e3427a87e203428312e7911a4c50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ef50bc751c774fc1de1ed226162d26') in 0.007912 seconds 
+  Import took 0.010993 seconds .
+
