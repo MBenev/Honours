@@ -44,11 +44,12 @@ public class SimpleCollectibleScript : MonoBehaviour {
 		if(collectEffect)
 			Instantiate(collectEffect, transform.position, Quaternion.identity);
 
-		//Below is space to add in your code for what happens based on the collectible type
+        //Below is space to add in your code for what happens based on the collectible type
 
-		if (CollectibleType == CollectibleTypes.NoType) {
+        if (CollectibleType == CollectibleTypes.NoType)
+        {
 
-			//Add in code here;
+            Player.Instance.AddCollected();
 
 			Debug.Log ("Do NoType Command");
 		}

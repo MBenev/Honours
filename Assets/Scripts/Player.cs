@@ -127,11 +127,11 @@ public class Player : MonoBehaviour
             other.gameObject.SetActive(false);
             data.Add(other.name);
         }
-        if(other.tag == "Collectable")
-        {
-            AddCollected();
-            other.gameObject.SetActive(false);
-        }
+        //if(other.tag == "Collectable")
+        //{
+        //    AddCollected();
+        //    other.gameObject.SetActive(false);
+        //}
     }
 
     //private void OnCollisionEnter(Collision collision)
