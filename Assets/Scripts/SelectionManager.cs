@@ -37,6 +37,10 @@ public class SelectionManager : MonoBehaviour
                 {
                     defaultColor = selectionRenderer.material.color;
                     selectionRenderer.material.color = new Color(0.2f, 0.2f, 0.2f);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        selection.gameObject.SetActive(false);
+                    }
                     //selectionRenderer.material.color = Color.yellow;
                 }
                 _selection = selection;
