@@ -112,6 +112,11 @@ public class Player : MonoBehaviour
         collected = 0;
     }
 
+    public int GetCollected()
+    {
+        return collected;
+    }
+
     private void OutputData()
     {
         foreach (var x in data)
