@@ -133,6 +133,10 @@ public class Player : MonoBehaviour
             other.gameObject.SetActive(false);
             data.Add(other.name);
         }
+        if(other.name == "Start Game Portal")
+        {
+            print("start atae");
+        }
         //if(other.tag == "Collectable")
         //{
         //    AddCollected();
