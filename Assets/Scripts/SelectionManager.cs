@@ -8,6 +8,7 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private Color defaultColor = new Color(1.0f, 1.0f, 1.0f);
 
     private Transform _selection;
+    public GameObject interactText;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class SelectionManager : MonoBehaviour
     {
         if (_selection != null)
         {
+            interactText.SetActive(false);
             var selectionRenerer = _selection.GetComponent<Renderer>();
             selectionRenerer.material.color = defaultColor;
             _selection = null;
@@ -35,6 +37,7 @@ public class SelectionManager : MonoBehaviour
                 var selectionRenderer = selection.GetComponent<Renderer>();
                 if (selectionRenderer != null)
                 {
+                    interactText.SetActive(true);
                     defaultColor = selectionRenderer.material.color;
                     selectionRenderer.material.color = new Color(0.2f, 0.2f, 0.2f);
                     if (Input.GetKeyDown(KeyCode.E))
