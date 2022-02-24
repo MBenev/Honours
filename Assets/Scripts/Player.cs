@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public bool started = false;
+
     private static Player _instance;
 
     public float walkingSpeed = 7.5f;
@@ -142,6 +144,7 @@ public class Player : MonoBehaviour
         }
         if(other.name == "Start Game Portal")
         {
+            started = true;
             TeleportPlayer();
         }
     }

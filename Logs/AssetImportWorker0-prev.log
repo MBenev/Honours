@@ -1,0 +1,2683 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Education' Language: 'en' Physical Memory: 32610 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Educational/temp/Honours
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56379
+Successfully changed project path to: D:/Educational/temp/Honours
+D:/Educational/temp/Honours
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 71.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Educational/temp/Honours/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002181 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (662ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010010 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 66.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1169ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (461ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2053 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.0 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2489.
+Total: 3.012700 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.079600 ms MarkObjects: 2.490100 ms  DeleteObjects: 0.281200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PolygonWestern/Models/SM_Env_Road_Straight_01.fbx
+  artifactKey: Guid(7baef90b0bf24914eb0af14a055942e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Road_Straight_01.fbx using Guid(7baef90b0bf24914eb0af14a055942e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9836f585e1e416590174a75eabf2f6') in 0.348533 seconds 
+  Import took 0.353478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_20.fbx
+  artifactKey: Guid(578cdeea9d1dbc148bc966b0a7216b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_20.fbx using Guid(578cdeea9d1dbc148bc966b0a7216b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b37d624abd076b745272ffef5ca3d1') in 0.062904 seconds 
+  Import took 0.066670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Long_02.fbx
+  artifactKey: Guid(9fef79d94945c9749bba6bc9e348ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Long_02.fbx using Guid(9fef79d94945c9749bba6bc9e348ca1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c56f3551ec95b3110646f1b94c1bc4f') in 0.041753 seconds 
+  Import took 0.045132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_TrainStation_Platform_01.fbx
+  artifactKey: Guid(bba32133c33cd674e8dee86b29c4b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_TrainStation_Platform_01.fbx using Guid(bba32133c33cd674e8dee86b29c4b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaac554e9b962b95c8180e0b025ffb9') in 0.065656 seconds 
+  Import took 0.069848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Basket_01.fbx
+  artifactKey: Guid(b91c5de4868cbd540ba9bc2179f8da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Basket_01.fbx using Guid(b91c5de4868cbd540ba9bc2179f8da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cabdd5d8fdf709e87f9e8a7d6b4f963') in 0.042957 seconds 
+  Import took 0.047755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Roof_02.fbx
+  artifactKey: Guid(c76b78d8af9487741b44da1a4b7a8aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Roof_02.fbx using Guid(c76b78d8af9487741b44da1a4b7a8aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d47844c4ac8a11679df8f11479120e') in 0.044254 seconds 
+  Import took 0.047641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Fence_02.fbx
+  artifactKey: Guid(a042ec0a6d454a54685927af61f5d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Fence_02.fbx using Guid(a042ec0a6d454a54685927af61f5d46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7aed650eb3ade8cc7219da514b2f34') in 0.039974 seconds 
+  Import took 0.043541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Cap_02.fbx
+  artifactKey: Guid(6fc113f864a6a8e42a07fa715632fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Cap_02.fbx using Guid(6fc113f864a6a8e42a07fa715632fe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10509232b3ad55625555adfcf1528e4') in 0.057351 seconds 
+  Import took 0.060690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Front_02.fbx
+  artifactKey: Guid(707d58b724284d049b0d7b8768ca7e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Front_02.fbx using Guid(707d58b724284d049b0d7b8768ca7e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a236431e05b0bc54cb1ae75339a3d801') in 0.050498 seconds 
+  Import took 0.054749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_02.fbx
+  artifactKey: Guid(ff2e1d57b19e0854d92f555c94f8bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_02.fbx using Guid(ff2e1d57b19e0854d92f555c94f8bcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d19d7264b0fda583e3bffc47a8405d') in 0.051947 seconds 
+  Import took 0.056784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BonePile_Small_01.fbx
+  artifactKey: Guid(37040d1793980604fadbbfe0c03e6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BonePile_Small_01.fbx using Guid(37040d1793980604fadbbfe0c03e6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7ef1ce9d5583df0f44c16682de95c7') in 0.026001 seconds 
+  Import took 0.029248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_15.fbx
+  artifactKey: Guid(102e3b95d4d894f45b9ce46d98dc3d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_15.fbx using Guid(102e3b95d4d894f45b9ce46d98dc3d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae1861e8675fedbc1e7c295c7b5a956') in 0.039487 seconds 
+  Import took 0.043459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Grass_03.fbx
+  artifactKey: Guid(d2661e78bfbc56f43a7666f62d7e67c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Grass_03.fbx using Guid(d2661e78bfbc56f43a7666f62d7e67c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db212c985fc87ffb6a24525704fedab') in 0.033724 seconds 
+  Import took 0.036948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Front_04.fbx
+  artifactKey: Guid(e0a539f77f3efca4fb6dccbac286a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Front_04.fbx using Guid(e0a539f77f3efca4fb6dccbac286a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6d4bbf77e63b355c11b1b9d0c37d4d') in 0.071002 seconds 
+  Import took 0.074267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Large_02.fbx
+  artifactKey: Guid(69851d4e9b2c42c4eadeefc904e58608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Large_02.fbx using Guid(69851d4e9b2c42c4eadeefc904e58608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff126b116e541ace26c4319598d9bd24') in 0.112582 seconds 
+  Import took 0.116100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Facade_02.fbx
+  artifactKey: Guid(02bac5218001a974393ff25db14c30fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Facade_02.fbx using Guid(02bac5218001a974393ff25db14c30fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c83887b7668b5fe7a83282fbfd6eea6') in 0.071670 seconds 
+  Import took 0.075055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_06.fbx
+  artifactKey: Guid(2d701906905f1fc46b2e4f73bbbb9ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_06.fbx using Guid(2d701906905f1fc46b2e4f73bbbb9ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31722e68e347eedf8ae702667fb778a') in 0.082071 seconds 
+  Import took 0.085877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_13.fbx
+  artifactKey: Guid(20fb2b2761e2f1d4abddd90e206b8a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_13.fbx using Guid(20fb2b2761e2f1d4abddd90e206b8a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c093d87886e10df4e4f0ea68b28bf3') in 0.029184 seconds 
+  Import took 0.033372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Grave_01.fbx
+  artifactKey: Guid(dd1af73b7e54b7943a9e04e88d7872d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Grave_01.fbx using Guid(dd1af73b7e54b7943a9e04e88d7872d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86560987a3fc493cc6cdd39ac64e7de4') in 0.052315 seconds 
+  Import took 0.056554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Facade_03.fbx
+  artifactKey: Guid(bf1ccd165b12b38478fe6c88b40da682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Facade_03.fbx using Guid(bf1ccd165b12b38478fe6c88b40da682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19270b8ad6985e6028d10a6e447bdbc7') in 0.041037 seconds 
+  Import took 0.044528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Curve_01.fbx
+  artifactKey: Guid(023f43de06975d748a2f0b2c56464cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Curve_01.fbx using Guid(023f43de06975d748a2f0b2c56464cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b2ca05008f1d02c5a94cb33b83e42d') in 0.038875 seconds 
+  Import took 0.043001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonWestern/Models/Characters.fbx
+  artifactKey: Guid(4837235d67e136e4b883adb2bafc73e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/Characters.fbx using Guid(4837235d67e136e4b883adb2bafc73e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614dfabbe239fe0048e29195e0ea1367') in 0.383165 seconds 
+  Import took 0.390166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Roof_01.fbx
+  artifactKey: Guid(0f0632be3fd976c4aa1753167c18983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Roof_01.fbx using Guid(0f0632be3fd976c4aa1753167c18983c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eec3daa958b188088ddad92f2b92ab1') in 0.074992 seconds 
+  Import took 0.080609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_02.fbx
+  artifactKey: Guid(41608841018f37342a9ea15cb07dbfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_02.fbx using Guid(41608841018f37342a9ea15cb07dbfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b2c59b8feffcfbcd05480e384859c2') in 0.067723 seconds 
+  Import took 0.073110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cloud_03.fbx
+  artifactKey: Guid(67e7f9f80e5edf345a9e9b1b38804e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cloud_03.fbx using Guid(67e7f9f80e5edf345a9e9b1b38804e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51a32dbdb0ce794bf111d4a06f5b039') in 0.078264 seconds 
+  Import took 0.083328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Deck_01.fbx
+  artifactKey: Guid(8f0755bcb71619c40bc7a77871719b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Deck_01.fbx using Guid(8f0755bcb71619c40bc7a77871719b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3d9b5769e2761acb7946b6ca64be50') in 0.066010 seconds 
+  Import took 0.072481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_07.fbx
+  artifactKey: Guid(1e2f4ba148968444b9d54d1c49084470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_07.fbx using Guid(1e2f4ba148968444b9d54d1c49084470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394870ef3e1fd387958e09d755a988b0') in 0.095533 seconds 
+  Import took 0.122827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Facade_05.fbx
+  artifactKey: Guid(747b812901ef4b14da80e5140260f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Facade_05.fbx using Guid(747b812901ef4b14da80e5140260f1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12f59796e7b348d03cfbfe9262c463b') in 0.116881 seconds 
+  Import took 0.122528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Small_03.fbx
+  artifactKey: Guid(72a4df55b7be9824fa801b383a311d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Small_03.fbx using Guid(72a4df55b7be9824fa801b383a311d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa8a81b476fc704dd20d3501f18705b') in 0.154330 seconds 
+  Import took 0.159044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Skyline_01.fbx
+  artifactKey: Guid(26e89def29085b941a7f40ec35dc8983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Skyline_01.fbx using Guid(26e89def29085b941a7f40ec35dc8983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f20b6404d4f675fbed99924dd7c1719') in 0.089746 seconds 
+  Import took 0.095517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Grass_02.fbx
+  artifactKey: Guid(76847c7c1ea6fb646b940d92fd4420f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Grass_02.fbx using Guid(76847c7c1ea6fb646b940d92fd4420f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358b95409183fbad952ef4b7fc54eb44') in 0.042725 seconds 
+  Import took 0.048532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Stairs_02.fbx
+  artifactKey: Guid(430e999563ba364448b9c8854d1858ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Stairs_02.fbx using Guid(430e999563ba364448b9c8854d1858ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35868c815b2899c17425850696f01ddc') in 0.045139 seconds 
+  Import took 0.049720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_Broken_02.fbx
+  artifactKey: Guid(86d23b3a54b86d24da4e5ae1cca7e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_Broken_02.fbx using Guid(86d23b3a54b86d24da4e5ae1cca7e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5549bcd99cdb4bc2ee211c91baac7a') in 0.026124 seconds 
+  Import took 0.031019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_FencePost_01.fbx
+  artifactKey: Guid(6745590f5ffb6d04891aca48b9c79115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_FencePost_01.fbx using Guid(6745590f5ffb6d04891aca48b9c79115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4cadd9fc9464c141b7cedfb43e77c5') in 0.036280 seconds 
+  Import took 0.041172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_Base_03.fbx
+  artifactKey: Guid(3be5d13f243f41c4d970a0ecc4a0156e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_Base_03.fbx using Guid(3be5d13f243f41c4d970a0ecc4a0156e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc618439e1e627ecf852d5ed6c075ed') in 0.061668 seconds 
+  Import took 0.066298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Train_Track_Bridge_Top_01.fbx
+  artifactKey: Guid(d14707e2bce120248810509d2714c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Train_Track_Bridge_Top_01.fbx using Guid(d14707e2bce120248810509d2714c9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba90e5e19eb4452dbd1f87ea9aa543c') in 0.038387 seconds 
+  Import took 0.044679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_Base_02.fbx
+  artifactKey: Guid(6536faadf64989a4887d44beb82192ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_Base_02.fbx using Guid(6536faadf64989a4887d44beb82192ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e96e0d50edc5c1d4d03d2e84d6ce564') in 0.054309 seconds 
+  Import took 0.061421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_03.fbx
+  artifactKey: Guid(8033cc6dddc010b4f82ed073b7bd5834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_03.fbx using Guid(8033cc6dddc010b4f82ed073b7bd5834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd5b9e364c0a45006819334cf3365f1') in 0.057791 seconds 
+  Import took 0.064056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_01.fbx
+  artifactKey: Guid(ff9a2bd9da6a5314f8b47d87d4f8f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_01.fbx using Guid(ff9a2bd9da6a5314f8b47d87d4f8f935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16727cb819decd72d59d6197bacfa22') in 0.052279 seconds 
+  Import took 0.057720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Front_02.fbx
+  artifactKey: Guid(30d7ce72ebe404c43be72759b81f411e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Front_02.fbx using Guid(30d7ce72ebe404c43be72759b81f411e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1809672042f0d190ad73f610adea06') in 0.096814 seconds 
+  Import took 0.103540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Arch_01.fbx
+  artifactKey: Guid(6d79af4592fa5da40b7a627086841b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Arch_01.fbx using Guid(6d79af4592fa5da40b7a627086841b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1069d585c1fe445515a0239f6cd650a') in 0.045208 seconds 
+  Import took 0.049682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_01.fbx
+  artifactKey: Guid(1f9bf072818b6294e8989017e96d97bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_01.fbx using Guid(1f9bf072818b6294e8989017e96d97bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffce97700cd5dcfff8514fd516beedf') in 0.032035 seconds 
+  Import took 0.037178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Basket_04.fbx
+  artifactKey: Guid(f31c1fe26893867478d30ad8a19b2b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Basket_04.fbx using Guid(f31c1fe26893867478d30ad8a19b2b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebd06c77176adaeda2210d037d9d753') in 0.062561 seconds 
+  Import took 0.069176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_TowerClock_01.fbx
+  artifactKey: Guid(1d9ee671a6eac4e4ab78897f753be32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_TowerClock_01.fbx using Guid(1d9ee671a6eac4e4ab78897f753be32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa5efb82890847298ad9141d455a908') in 0.095699 seconds 
+  Import took 0.102358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_Broken_03.fbx
+  artifactKey: Guid(1d9b3b36c7ab99f45b0ec6e75a68bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_Broken_03.fbx using Guid(1d9b3b36c7ab99f45b0ec6e75a68bf61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675675cc500572016fc548fa17fa45db') in 0.056778 seconds 
+  Import took 0.083215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_01.fbx
+  artifactKey: Guid(08209ba1cb62d2944a9ceb46f7b851cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_01.fbx using Guid(08209ba1cb62d2944a9ceb46f7b851cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8182493e1542fed3cd7035b923a1dd6') in 0.039965 seconds 
+  Import took 0.046139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Well_01.fbx
+  artifactKey: Guid(5ff185ae0321a674a959e90bfd690bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Well_01.fbx using Guid(5ff185ae0321a674a959e90bfd690bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f6ea3297c0419a935dc185eee8b64') in 0.060598 seconds 
+  Import took 0.067140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Deck_04.fbx
+  artifactKey: Guid(80ca21a786c8b37489c5ebf658ac2956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Deck_04.fbx using Guid(80ca21a786c8b37489c5ebf658ac2956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013cbf0b9b470faf97394866062ad746') in 0.102035 seconds 
+  Import took 0.111705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_05.fbx
+  artifactKey: Guid(2babdebd1a1de2d498d5e9a13497a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_05.fbx using Guid(2babdebd1a1de2d498d5e9a13497a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b8b4c8b67fb3040916efad85914547') in 0.073241 seconds 
+  Import took 0.078499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_06.fbx
+  artifactKey: Guid(740a5116d3b915b40950674427205d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_06.fbx using Guid(740a5116d3b915b40950674427205d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b897cfcf396a612e35c16e92c9e9f2') in 0.030132 seconds 
+  Import took 0.037119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_10.fbx
+  artifactKey: Guid(4340b804d52cea1439a2af2c20b58ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_10.fbx using Guid(4340b804d52cea1439a2af2c20b58ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a227fffb65dad008bee64a7e206af1cb') in 0.077606 seconds 
+  Import took 0.084290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_Round_01.fbx
+  artifactKey: Guid(534cbe45caa61b549b906c957a03c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_Round_01.fbx using Guid(534cbe45caa61b549b906c957a03c0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf8b5c7fa4fdab63875b79f35661e05') in 0.043017 seconds 
+  Import took 0.050852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Balcony_02.fbx
+  artifactKey: Guid(925579801f8722642b87c43253609994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Balcony_02.fbx using Guid(925579801f8722642b87c43253609994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af1e3b614a66f01b81c7144ec072291') in 0.074127 seconds 
+  Import took 0.081998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Arch_02.fbx
+  artifactKey: Guid(84471c2d5b1e7bf48bca2329eb8833df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Arch_02.fbx using Guid(84471c2d5b1e7bf48bca2329eb8833df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d7f170ce96c1d099622819146b733') in 0.060331 seconds 
+  Import took 0.068337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_02.fbx
+  artifactKey: Guid(425b025456d1ae94891663c05140854d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_02.fbx using Guid(425b025456d1ae94891663c05140854d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eebf125385a98523af200cb9c72d909') in 0.050268 seconds 
+  Import took 0.059588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_02.fbx
+  artifactKey: Guid(a0c7e32c8d9e8484c892634d03d90689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_02.fbx using Guid(a0c7e32c8d9e8484c892634d03d90689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02d2d72afa50928aae383dbebda7a05') in 0.046175 seconds 
+  Import took 0.053908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cloud_02.fbx
+  artifactKey: Guid(9fba7fda40d86d744b84dd460404cfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cloud_02.fbx using Guid(9fba7fda40d86d744b84dd460404cfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387bbe46d725f283164c2dc75b1b5a67') in 0.063411 seconds 
+  Import took 0.070927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Roof_Patch_01.fbx
+  artifactKey: Guid(d8487b0b6e240114093b22c1b14026fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Roof_Patch_01.fbx using Guid(d8487b0b6e240114093b22c1b14026fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3968a8eacf6a2365cf2da7a18dfa49b4') in 0.168419 seconds 
+  Import took 0.175355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_03.fbx
+  artifactKey: Guid(786d8761855e34344a66512c0f4dfd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_03.fbx using Guid(786d8761855e34344a66512c0f4dfd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9564cbc90ff4314522f91e47a3a178') in 0.103860 seconds 
+  Import took 0.112186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000691 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_14.fbx
+  artifactKey: Guid(667888c5e0ba7854ab10bb1d7804f424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_14.fbx using Guid(667888c5e0ba7854ab10bb1d7804f424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11410da785d760424d5e4288a5aa101') in 0.062480 seconds 
+  Import took 0.069985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_12.fbx
+  artifactKey: Guid(b2a04bac26e8b234e99665344ba5e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_12.fbx using Guid(b2a04bac26e8b234e99665344ba5e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafa1afab566462da6b456359703bf95') in 0.065335 seconds 
+  Import took 0.072048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Basket_02.fbx
+  artifactKey: Guid(8edfaaf3b16fa134c9e8de9ef2ce40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Basket_02.fbx using Guid(8edfaaf3b16fa134c9e8de9ef2ce40b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4e4b624402387de86bf49d948a1840') in 0.095655 seconds 
+  Import took 0.103306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_01.fbx
+  artifactKey: Guid(3f8c206541bc2034a8db237be8071000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_01.fbx using Guid(3f8c206541bc2034a8db237be8071000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42066a8af450249db38901aa0a0206d') in 0.114587 seconds 
+  Import took 0.122252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Large_03.fbx
+  artifactKey: Guid(9b081240578f6464ea50d4206141b537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Large_03.fbx using Guid(9b081240578f6464ea50d4206141b537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4011a726064e42ab7435f33b7fa0f90') in 0.109877 seconds 
+  Import took 0.117016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/PolygonWestern/Models/SM_Particle_Smoke_01.fbx
+  artifactKey: Guid(0c4d617d7c0b3674da1cc34abad6d8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Particle_Smoke_01.fbx using Guid(0c4d617d7c0b3674da1cc34abad6d8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad390c487dfae2e2a3169c2e9a6d1f49') in 0.093395 seconds 
+  Import took 0.102225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_Round_02.fbx
+  artifactKey: Guid(51db6253db86ce243b14778db7f70d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_Round_02.fbx using Guid(51db6253db86ce243b14778db7f70d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08198058244aabd95dcec9dfcf806373') in 0.075280 seconds 
+  Import took 0.082890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_Round_03.fbx
+  artifactKey: Guid(767cb0885d1a60449b08a7c43eb65cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_Round_03.fbx using Guid(767cb0885d1a60449b08a7c43eb65cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0b22b7099f9c48b5fff417588bf74c') in 0.028843 seconds 
+  Import took 0.034077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_16.fbx
+  artifactKey: Guid(5651f54ee67da9f4eb280b5b6de24e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_16.fbx using Guid(5651f54ee67da9f4eb280b5b6de24e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846485b4091edb364d315db7ad048fc7') in 0.046651 seconds 
+  Import took 0.051383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_Alt_02.fbx
+  artifactKey: Guid(ec467475c062a834387892c87b96bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_Alt_02.fbx using Guid(ec467475c062a834387892c87b96bdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1586224ad3010a6c118ba868f2909bb4') in 0.052945 seconds 
+  Import took 0.057963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_04.fbx
+  artifactKey: Guid(d36b1838f61877b42b4d7b6abfb63baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_04.fbx using Guid(d36b1838f61877b42b4d7b6abfb63baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1987490f5549e250c82ee5ee8cc5913c') in 0.076861 seconds 
+  Import took 0.082362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_04.fbx
+  artifactKey: Guid(542709d804ebf824badf7ddce1a1bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_04.fbx using Guid(542709d804ebf824badf7ddce1a1bb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8e75dd484fc18bf38729b0e51240b0') in 0.049983 seconds 
+  Import took 0.056146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Long_01.fbx
+  artifactKey: Guid(912f5608a169edf40b1fe2344d1bc40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Long_01.fbx using Guid(912f5608a169edf40b1fe2344d1bc40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a8d74dcd5f04edbc362f12cbccd04b') in 0.028509 seconds 
+  Import took 0.035054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000834 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Small_02.fbx
+  artifactKey: Guid(5bbbc8c70e3183e4292ae18b3bd7e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Small_02.fbx using Guid(5bbbc8c70e3183e4292ae18b3bd7e34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2674ea183d46769dcb60a57e77d63f7') in 0.055010 seconds 
+  Import took 0.060538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000962 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Fence_01.fbx
+  artifactKey: Guid(75f85f28f2bc1a049a8ce042ca4c634e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Fence_01.fbx using Guid(75f85f28f2bc1a049a8ce042ca4c634e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97553079d1ad672951070bba0990a2f') in 0.052782 seconds 
+  Import took 0.058885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Deck_02.fbx
+  artifactKey: Guid(e871bc4aff62c7b4baefb5569ae99186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Deck_02.fbx using Guid(e871bc4aff62c7b4baefb5569ae99186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78535ac8d376d829dfd6d6a78d69b26e') in 0.047417 seconds 
+  Import took 0.053964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_Broken_01.fbx
+  artifactKey: Guid(4e2ff6490b171cc4999e7abe426b9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_Broken_01.fbx using Guid(4e2ff6490b171cc4999e7abe426b9b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844c6f66fe4f83e3cca47a6496d1b05a') in 0.039748 seconds 
+  Import took 0.044266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_09.fbx
+  artifactKey: Guid(23b3dfe69b2cf824fb49b84fdb87f2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_09.fbx using Guid(23b3dfe69b2cf824fb49b84fdb87f2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3dfe9aefdd56b7ef104b4266f9056e') in 0.042341 seconds 
+  Import took 0.047756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Facade_04.fbx
+  artifactKey: Guid(20d8d859818b884438ad5b7b95b53c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Facade_04.fbx using Guid(20d8d859818b884438ad5b7b95b53c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1278f5ee701519d86795af417219fe4d') in 0.045640 seconds 
+  Import took 0.081496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Front_03.fbx
+  artifactKey: Guid(0dae0f4b1539b8049ba25d590991c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Front_03.fbx using Guid(0dae0f4b1539b8049ba25d590991c557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3803c54fea7e4504b0bdee400bfe6ab4') in 0.114460 seconds 
+  Import took 0.121500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Grass_01.fbx
+  artifactKey: Guid(98f5ac8e5e72fe5409682c2cae104327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Grass_01.fbx using Guid(98f5ac8e5e72fe5409682c2cae104327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31a56cb6e0a325ff0df561837a9de6d') in 0.070358 seconds 
+  Import took 0.076288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rocks_02.fbx
+  artifactKey: Guid(610c8450e3ceee547b842d29db2b44ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rocks_02.fbx using Guid(610c8450e3ceee547b842d29db2b44ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21697c9483848be997b09a32cd48ed7') in 0.027999 seconds 
+  Import took 0.034140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rocks_04.fbx
+  artifactKey: Guid(2d937758f96590048a4838753edcf985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rocks_04.fbx using Guid(2d937758f96590048a4838753edcf985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1424b19387bbc0960462c926b644044') in 0.043936 seconds 
+  Import took 0.048999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_05.fbx
+  artifactKey: Guid(29fa4d940c6f05447a7283f08d45694e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_05.fbx using Guid(29fa4d940c6f05447a7283f08d45694e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0553b8d3b6cf7768c755418edda465af') in 0.065374 seconds 
+  Import took 0.073032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Cover_01.fbx
+  artifactKey: Guid(782c184f086770b4eb5c648eb1d2b5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Cover_01.fbx using Guid(782c184f086770b4eb5c648eb1d2b5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ef2ed51199ff8202f68ad1461098f6') in 0.151239 seconds 
+  Import took 0.156876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_17.fbx
+  artifactKey: Guid(05862ed2e8684054f98d6afb10248b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_17.fbx using Guid(05862ed2e8684054f98d6afb10248b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7e95dd884afd7d37f474ee9b14ab96') in 0.135477 seconds 
+  Import took 0.143319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_Alt_01.fbx
+  artifactKey: Guid(4cca6eb48a527bd4a8fdb2e5b4f25300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_Alt_01.fbx using Guid(4cca6eb48a527bd4a8fdb2e5b4f25300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1f7793a4025540e7f1b874c95a6af3') in 0.115491 seconds 
+  Import took 0.123844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Curve_02.fbx
+  artifactKey: Guid(479753ec10184674c9bd2569aad59ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Curve_02.fbx using Guid(479753ec10184674c9bd2569aad59ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb4c9771f76bbfcca10535e4d592d72') in 0.102998 seconds 
+  Import took 0.111614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Deck_03.fbx
+  artifactKey: Guid(45933ab3d4745204fbe038252e8a1a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Deck_03.fbx using Guid(45933ab3d4745204fbe038252e8a1a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec20122f31ac4e766e7c6bacce92779a') in 0.075357 seconds 
+  Import took 0.084126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Deck_02.fbx
+  artifactKey: Guid(206854228b897e9428ca58bd8be50bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Deck_02.fbx using Guid(206854228b897e9428ca58bd8be50bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347e304487d6a96c281fb05a1f2b0b4d') in 0.083308 seconds 
+  Import took 0.092171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002016 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_12.fbx
+  artifactKey: Guid(94a5ff6a8316dbf498df2dd97e5c4745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_12.fbx using Guid(94a5ff6a8316dbf498df2dd97e5c4745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c8a4bb33a13002350b95f2d46e55b4') in 0.091675 seconds 
+  Import took 0.103838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BackgroundCard_03.fbx
+  artifactKey: Guid(f0d078080de2ca44eae067a5ef227313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BackgroundCard_03.fbx using Guid(f0d078080de2ca44eae067a5ef227313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4b85258486e32406cd81efd18dc176') in 0.052435 seconds 
+  Import took 0.062858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_05.fbx
+  artifactKey: Guid(c3c6de4dba5c73e42af4346a78b74548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_05.fbx using Guid(c3c6de4dba5c73e42af4346a78b74548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8ff745f11518dbdde75adafe17263c') in 0.094217 seconds 
+  Import took 0.105181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002166 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_DeckCover_01.fbx
+  artifactKey: Guid(a91fbe7de8e685944a7ef29bbd5d1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_DeckCover_01.fbx using Guid(a91fbe7de8e685944a7ef29bbd5d1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c16b304b998ca89b49f0399b381b90') in 0.083597 seconds 
+  Import took 0.091423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bed_01.fbx
+  artifactKey: Guid(9ccf0a1979e92e545b657142086c8746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bed_01.fbx using Guid(9ccf0a1979e92e545b657142086c8746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c4015df46f831d8a9b22c6768d8d40') in 0.039200 seconds 
+  Import took 0.044554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_04.fbx
+  artifactKey: Guid(f2fb1b8f48ea9454cad029030faad0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_04.fbx using Guid(f2fb1b8f48ea9454cad029030faad0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad829727fd1c87e745dc7b0310c5bba5') in 0.082453 seconds 
+  Import took 0.089835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000892 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_08.fbx
+  artifactKey: Guid(52164ae69dbb2254986a0a5fbbd93834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_08.fbx using Guid(52164ae69dbb2254986a0a5fbbd93834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cc381b078166aab5d76f2174e0da02') in 0.060675 seconds 
+  Import took 0.069361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Pillar_01.fbx
+  artifactKey: Guid(64ab0039246d10443990ed6caaa70c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Pillar_01.fbx using Guid(64ab0039246d10443990ed6caaa70c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af3b9aca2afb17f25fd836bba6321ca') in 0.060817 seconds 
+  Import took 0.069044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_13.fbx
+  artifactKey: Guid(fae96e4c465a2874b8ff274bc3b1c714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_13.fbx using Guid(fae96e4c465a2874b8ff274bc3b1c714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149cd80edc365dca6c8562592e36ff1f') in 0.065489 seconds 
+  Import took 0.072288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Door_02.fbx
+  artifactKey: Guid(91f7b7ca4bdd8f84790cb23aaa6fb27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Door_02.fbx using Guid(91f7b7ca4bdd8f84790cb23aaa6fb27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf58d88b5e7ca888eb3dfc2c179419b') in 0.111350 seconds 
+  Import took 0.118057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_01.fbx
+  artifactKey: Guid(02ea0c911820d9a45b561266d486e0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_01.fbx using Guid(02ea0c911820d9a45b561266d486e0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cb11779f0582353a9e1e2cb50d672c') in 0.100569 seconds 
+  Import took 0.109338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Balcony_02.fbx
+  artifactKey: Guid(e0cd0326d95addc4891bbfcee2f46914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Balcony_02.fbx using Guid(e0cd0326d95addc4891bbfcee2f46914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253ddb139e64ed00c9af9fd864284281') in 0.064708 seconds 
+  Import took 0.073084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Deck_04.fbx
+  artifactKey: Guid(0e16efa18a4b0184ea0d0e691c02a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Deck_04.fbx using Guid(0e16efa18a4b0184ea0d0e691c02a175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afbe0b118a208ffd8c01d95acb4dca0') in 0.084133 seconds 
+  Import took 0.091146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Saloon_01.fbx
+  artifactKey: Guid(057236d50c13d864cbdb745fe796cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Saloon_01.fbx using Guid(057236d50c13d864cbdb745fe796cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ee05e04441176ee4bee295710d723c') in 0.376861 seconds 
+  Import took 0.383354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_BarberPost_01.fbx
+  artifactKey: Guid(278d87460b6fdf14cb16d3fe1d063f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_BarberPost_01.fbx using Guid(278d87460b6fdf14cb16d3fe1d063f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca485b406da6cae6729994c5cb8abf1d') in 0.033192 seconds 
+  Import took 0.056349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_08.fbx
+  artifactKey: Guid(a601a4200c69fd340827c3b7962e0a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_08.fbx using Guid(a601a4200c69fd340827c3b7962e0a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb8757c2dc6a98948ee2cd3a488bc27') in 0.058605 seconds 
+  Import took 0.065072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_Base_01.fbx
+  artifactKey: Guid(2557e0bb927d76745a066db6c577ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_Base_01.fbx using Guid(2557e0bb927d76745a066db6c577ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17662e3978ca4bd7b1b4987e31e928a3') in 0.053886 seconds 
+  Import took 0.059664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Jail_01.fbx
+  artifactKey: Guid(dbb9714ff15feb8449dfb9605b0b15f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Jail_01.fbx using Guid(dbb9714ff15feb8449dfb9605b0b15f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded9d8964526fd3f9bbb351723c3e399') in 0.163577 seconds 
+  Import took 0.171095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonWestern/Models/SM_CharacterAttachement_Pouch_01.fbx
+  artifactKey: Guid(e60c5a6c21fec9340ad26508b4c1bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_CharacterAttachement_Pouch_01.fbx using Guid(e60c5a6c21fec9340ad26508b4c1bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60107d332695b80a8335e74fe9ff07') in 0.067650 seconds 
+  Import took 0.074426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_Half_01.fbx
+  artifactKey: Guid(692a245d306c24249b4c03d88397aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_Half_01.fbx using Guid(692a245d306c24249b4c03d88397aa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bcd469bbd3d234d1aae9d638848afe') in 0.067719 seconds 
+  Import took 0.075435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_02.fbx
+  artifactKey: Guid(ec0fc87734d022946b3c7b8c01b25d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_02.fbx using Guid(ec0fc87734d022946b3c7b8c01b25d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31f2f29092a00ad31de5a1f75180e96') in 0.129626 seconds 
+  Import took 0.136266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_01.fbx
+  artifactKey: Guid(529837ecdd6004d4db99d3326c0569f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_01.fbx using Guid(529837ecdd6004d4db99d3326c0569f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91da61e448b8ff0ed2dfebdfdb05e9f5') in 0.052736 seconds 
+  Import took 0.058729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Basket_05.fbx
+  artifactKey: Guid(6b4abfcfd5cdf5a44bb845db0d63075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Basket_05.fbx using Guid(6b4abfcfd5cdf5a44bb845db0d63075c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7130264cdcc153fc3c8247fe5a36d5') in 0.033668 seconds 
+  Import took 0.040378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_02.fbx
+  artifactKey: Guid(f7f3e34164890ca42ba5e5a1dfae9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_02.fbx using Guid(f7f3e34164890ca42ba5e5a1dfae9137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af5f1eb9e2fd3d718ace39efdaa8bfc') in 0.075131 seconds 
+  Import took 0.083114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_14.fbx
+  artifactKey: Guid(00bd327b249921c479801922f8dcab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_14.fbx using Guid(00bd327b249921c479801922f8dcab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614ccdb0debce9608d0cda42e1503622') in 0.058026 seconds 
+  Import took 0.067605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/PolygonWestern/Models/SM_CharacterAttachment_Holster_01.fbx
+  artifactKey: Guid(e283e3165584b214eb48be01c6d0d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_CharacterAttachment_Holster_01.fbx using Guid(e283e3165584b214eb48be01c6d0d11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e881bafd4c0804d78a845ba8366149e1') in 0.045665 seconds 
+  Import took 0.070107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_09.fbx
+  artifactKey: Guid(f0b682afd76cb3e44bcbc60443bf6cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_09.fbx using Guid(f0b682afd76cb3e44bcbc60443bf6cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451813dafbc8c9068a3cb7926747e781') in 0.058743 seconds 
+  Import took 0.068677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_15.fbx
+  artifactKey: Guid(59e668292648c794887fea0db526787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_15.fbx using Guid(59e668292648c794887fea0db526787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22df373771ab9744b3d5948c77ee8d2') in 0.043617 seconds 
+  Import took 0.049367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_01.fbx
+  artifactKey: Guid(e2893e766f9f1e647ba5b2e5114323ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_01.fbx using Guid(e2893e766f9f1e647ba5b2e5114323ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24b978d6bef3154150d8861a79f154c') in 0.103799 seconds 
+  Import took 0.110643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Balcony_01.fbx
+  artifactKey: Guid(05eb4e4ad29c1b64892eda13af8623f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Balcony_01.fbx using Guid(05eb4e4ad29c1b64892eda13af8623f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31babb0a9e8a6123efb0ab9b1a4630ed') in 0.059748 seconds 
+  Import took 0.067999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008132 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Front_01.fbx
+  artifactKey: Guid(a8f7a0d6c0e393448a0e95b9627c23b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Front_01.fbx using Guid(a8f7a0d6c0e393448a0e95b9627c23b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d164af854ce12bd2860448b8a1959b') in 0.134890 seconds 
+  Import took 0.142412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonWestern/Models/SM_CharacterAttachments_Pouch_01.fbx
+  artifactKey: Guid(ca15e448235a3634ba33739ed2302769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_CharacterAttachments_Pouch_01.fbx using Guid(ca15e448235a3634ba33739ed2302769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191a93a6dcdcded1ac6af7fc8fd6c47a') in 0.049447 seconds 
+  Import took 0.096877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Cap_01.fbx
+  artifactKey: Guid(585bb6ce4d8140d4aa2a371d45351367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Cap_01.fbx using Guid(585bb6ce4d8140d4aa2a371d45351367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9340f7872d38b573804a28c186968b') in 0.110296 seconds 
+  Import took 0.117554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_19.fbx
+  artifactKey: Guid(0b3f9b6fdd59c974f901389ad03312ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_19.fbx using Guid(0b3f9b6fdd59c974f901389ad03312ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df7a70299b92a8d4b6a844fedf25292') in 0.055843 seconds 
+  Import took 0.062599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_DeckSteps_01.fbx
+  artifactKey: Guid(83ace1a0d0b03c447a935de87da4f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_DeckSteps_01.fbx using Guid(83ace1a0d0b03c447a935de87da4f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2454c9bbf52ef31cb6c39426f9dd95a5') in 0.074864 seconds 
+  Import took 0.081950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Windmill_01.fbx
+  artifactKey: Guid(0816b9bcf94733446a3b48e589e8bb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Windmill_01.fbx using Guid(0816b9bcf94733446a3b48e589e8bb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626dc745db7407aed1217bd3cef1e489') in 0.093583 seconds 
+  Import took 0.100163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bone_Cracked_01.fbx
+  artifactKey: Guid(df99d8812f7dea943b24eb9c7a440591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bone_Cracked_01.fbx using Guid(df99d8812f7dea943b24eb9c7a440591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0643c0e4b9ef2521938dde06cb6ae8') in 0.163702 seconds 
+  Import took 0.171232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_18.fbx
+  artifactKey: Guid(e2eb7000714607b4d8d3662adab68e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_18.fbx using Guid(e2eb7000714607b4d8d3662adab68e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b2de35cf2d0f24f81e1259763152a0') in 0.069204 seconds 
+  Import took 0.075871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bone_Cracked_02.fbx
+  artifactKey: Guid(75ca18c5a16c45044a34e8098683ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bone_Cracked_02.fbx using Guid(75ca18c5a16c45044a34e8098683ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c59dc621933a2912ee1f640af66c25') in 0.066728 seconds 
+  Import took 0.072131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Train_Track_Bridge_Support_01.fbx
+  artifactKey: Guid(7fa6483dad1760646a69aa635b3b9314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Train_Track_Bridge_Support_01.fbx using Guid(7fa6483dad1760646a69aa635b3b9314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7332d7f9529208378c35bb154276c57') in 0.078284 seconds 
+  Import took 0.086237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Facade_05.fbx
+  artifactKey: Guid(898fd342db4ba994ebbf6e4518fb32cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Facade_05.fbx using Guid(898fd342db4ba994ebbf6e4518fb32cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da357d34691354ed37c039f132771a4') in 0.091542 seconds 
+  Import took 0.098352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Church_01.fbx
+  artifactKey: Guid(34dcde4421f1c3f4d8017b9c37b6007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Church_01.fbx using Guid(34dcde4421f1c3f4d8017b9c37b6007c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6e75abebe1a81497cc9d1ad95337af') in 0.184212 seconds 
+  Import took 0.191679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rocks_03.fbx
+  artifactKey: Guid(efee2a1eaf39dca41bbf517a6e86cd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rocks_03.fbx using Guid(efee2a1eaf39dca41bbf517a6e86cd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5075209456286a3a41fb3acfe5f4bf02') in 0.077134 seconds 
+  Import took 0.083378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Facade_02.fbx
+  artifactKey: Guid(5098a57ed9d381e48aaebe93d5a542e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Facade_02.fbx using Guid(5098a57ed9d381e48aaebe93d5a542e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b12d44c7a0c7e46935f5ff68b805f1') in 0.065996 seconds 
+  Import took 0.071376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Straight_02.fbx
+  artifactKey: Guid(2c8c4306394a5de499de0d78926f75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Straight_02.fbx using Guid(2c8c4306394a5de499de0d78926f75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a778db89486ed7ce7687c97a2a6a1f6a') in 0.071739 seconds 
+  Import took 0.080828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_TrainStation_01.fbx
+  artifactKey: Guid(86dc5dbfc3d7c2347bde608d51a7d2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_TrainStation_01.fbx using Guid(86dc5dbfc3d7c2347bde608d51a7d2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3e9e007d1f2bcaae2c4168ce8f69ee') in 0.158791 seconds 
+  Import took 0.165230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Stairs_01.fbx
+  artifactKey: Guid(6d4e6caac602a9b40b70d1adaa53f87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Stairs_01.fbx using Guid(6d4e6caac602a9b40b70d1adaa53f87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d5a7f82199f1dae017602007d239f9') in 0.077990 seconds 
+  Import took 0.083745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_07.fbx
+  artifactKey: Guid(bfd7df5ea9fd17d4aae216aaba645bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_07.fbx using Guid(bfd7df5ea9fd17d4aae216aaba645bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b880de48df1663ee185b06a108b120c7') in 0.040948 seconds 
+  Import took 0.047933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Train_Track_Curve_01.fbx
+  artifactKey: Guid(cca6203d7e802d04ebc819bcbb10482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Train_Track_Curve_01.fbx using Guid(cca6203d7e802d04ebc819bcbb10482f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8935906f0e077ae11de0b0732bf1713') in 0.115108 seconds 
+  Import took 0.124054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Straight_01.fbx
+  artifactKey: Guid(fb1f720dabc559f429a6b63d9688640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Straight_01.fbx using Guid(fb1f720dabc559f429a6b63d9688640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f39d038386f60d9b0539f9838d34e77') in 0.130570 seconds 
+  Import took 0.210089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Roof_01.fbx
+  artifactKey: Guid(0d9ee32ccc3a24a43b875089ecefc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Roof_01.fbx using Guid(0d9ee32ccc3a24a43b875089ecefc490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e864e5d3686a8cab1b5f8c10f04e97') in 0.051189 seconds 
+  Import took 0.058414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bed_02.fbx
+  artifactKey: Guid(967460eb3d1c45142bb5232c611eb28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bed_02.fbx using Guid(967460eb3d1c45142bb5232c611eb28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e698229362d305eca2fba62f6608c780') in 0.032513 seconds 
+  Import took 0.037595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Stairs_03.fbx
+  artifactKey: Guid(f398b52e36bd0ed4393722b7afde0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Stairs_03.fbx using Guid(f398b52e36bd0ed4393722b7afde0fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9ed01e69368dc47768e3b576668778') in 0.172874 seconds 
+  Import took 0.180050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BackgroundCard_01.fbx
+  artifactKey: Guid(7709f7005465eb2489fb878ee5185e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BackgroundCard_01.fbx using Guid(7709f7005465eb2489fb878ee5185e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883bff0688b83f257014a61defdcb2c3') in 0.079880 seconds 
+  Import took 0.086928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Pillar_02.fbx
+  artifactKey: Guid(99c8cd017d9793b499eb154d81ce2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Pillar_02.fbx using Guid(99c8cd017d9793b499eb154d81ce2213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a126f46286e9d3bfd79454e3f2c9a8') in 0.084852 seconds 
+  Import took 0.091757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Large_01.fbx
+  artifactKey: Guid(21d4fa1bf77293d43a5210a682a8ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Large_01.fbx using Guid(21d4fa1bf77293d43a5210a682a8ed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2606d754dfadb1229c47e01eaf99f70') in 0.081355 seconds 
+  Import took 0.088472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rock_01.fbx
+  artifactKey: Guid(e0e194cbdecf1974b9322f70b606cbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rock_01.fbx using Guid(e0e194cbdecf1974b9322f70b606cbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6e451a5eb7ae104ba146fa4d94b488') in 0.034476 seconds 
+  Import took 0.042532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/PolygonWestern/Models/SkyDome.fbx
+  artifactKey: Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SkyDome.fbx using Guid(1340630fb7a3267499177be33f281f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5dcef4e6266b8e0ac3e2f05b157852') in 0.122358 seconds 
+  Import took 0.129093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_TreeDead_03.fbx
+  artifactKey: Guid(b614b230b054f02459b35c19b2c089ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_TreeDead_03.fbx using Guid(b614b230b054f02459b35c19b2c089ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd41aa01568b90c8723deaf74a2f716c') in 0.055242 seconds 
+  Import took 0.060839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_03.fbx
+  artifactKey: Guid(e27596962f9f6244db8a898b0919fc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_03.fbx using Guid(e27596962f9f6244db8a898b0919fc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0056e65dcf95b5e2d3026a102887115d') in 0.075179 seconds 
+  Import took 0.082888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_BackDoor_01.fbx
+  artifactKey: Guid(c42dea0156159c046a2d7d60c664b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_BackDoor_01.fbx using Guid(c42dea0156159c046a2d7d60c664b561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac9c36153eaf48003120bb454d53b75') in 0.086651 seconds 
+  Import took 0.094423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Facade_01.fbx
+  artifactKey: Guid(d6b7d86ecd18bb84584e1684730c1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Facade_01.fbx using Guid(d6b7d86ecd18bb84584e1684730c1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b51de931ea43f1892f2c108284605fa') in 0.071799 seconds 
+  Import took 0.081133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Train_Track_Bridge_Top_Curve_01.fbx
+  artifactKey: Guid(3780f97b3c8deee49a05d20801ae108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Train_Track_Bridge_Top_Curve_01.fbx using Guid(3780f97b3c8deee49a05d20801ae108a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb018b7ec31b5169941ddc17b4b43713') in 0.060303 seconds 
+  Import took 0.067349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Small_01.fbx
+  artifactKey: Guid(262e837463f6dd5468d552f56be01e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Small_01.fbx using Guid(262e837463f6dd5468d552f56be01e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d52e85446bcab907b30a338a19f82bd') in 0.077699 seconds 
+  Import took 0.084751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_TreeDead_02.fbx
+  artifactKey: Guid(52dc08aa1313ec54aa98d14e73048458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_TreeDead_02.fbx using Guid(52dc08aa1313ec54aa98d14e73048458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a68d01123291c47c6b0d613e828a26') in 0.136561 seconds 
+  Import took 0.142808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cactus_11.fbx
+  artifactKey: Guid(c8ac1df7a599caa4ea210420c37b079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_11.fbx using Guid(c8ac1df7a599caa4ea210420c37b079f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bba2b456f64a4cf9584553973458efb') in 0.139510 seconds 
+  Import took 0.146507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_TreeDead_01.fbx
+  artifactKey: Guid(a7fba2219cc5e46469a63d28449e9c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_TreeDead_01.fbx using Guid(a7fba2219cc5e46469a63d28449e9c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43706f7951168a4c43ebd8d4d9d19564') in 0.123475 seconds 
+  Import took 0.130454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Small_04.fbx
+  artifactKey: Guid(b7be53bde0400b642a5f8ff81fdd9a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Small_04.fbx using Guid(b7be53bde0400b642a5f8ff81fdd9a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f02cf9ccd31edb5ea3216f3a6d7e53') in 0.040076 seconds 
+  Import took 0.070097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Deck_01.fbx
+  artifactKey: Guid(037e1116f9272434e885bfbe6ba3f192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Deck_01.fbx using Guid(037e1116f9272434e885bfbe6ba3f192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9479615eeb8c458217c082c7f96b3894') in 0.134334 seconds 
+  Import took 0.140054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Deck_03.fbx
+  artifactKey: Guid(1b868f597c435d145bbb662e0cc2a5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Deck_03.fbx using Guid(1b868f597c435d145bbb662e0cc2a5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5292ef0b59e1ad594278f93967e3db0') in 0.070193 seconds 
+  Import took 0.076088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_03.fbx
+  artifactKey: Guid(375b0864e741d744da54960a5aeb3944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_03.fbx using Guid(375b0864e741d744da54960a5aeb3944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c96afde7bc08b58858e36f1abbc5aa0') in 0.039338 seconds 
+  Import took 0.048389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_11.fbx
+  artifactKey: Guid(cc73575e75015d544a5ee7a6a9d75917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_11.fbx using Guid(cc73575e75015d544a5ee7a6a9d75917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cd0dcfd3642f26d4ee237df211f0a8') in 0.065236 seconds 
+  Import took 0.072286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Tower_01.fbx
+  artifactKey: Guid(24ff910a0cf0c874899fb6808e601434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Tower_01.fbx using Guid(24ff910a0cf0c874899fb6808e601434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3a85a78df1d52ef9c0ece86c032805') in 0.064406 seconds 
+  Import took 0.070783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_BackgroundCard_02.fbx
+  artifactKey: Guid(b37c3d62017fb0049819d162de7d9c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_BackgroundCard_02.fbx using Guid(b37c3d62017fb0049819d162de7d9c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea65e19af633589366e3e7a7b137fb9') in 0.046668 seconds 
+  Import took 0.053064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Basket_06.fbx
+  artifactKey: Guid(32de28f06414f774cb123ae4f9d69f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Basket_06.fbx using Guid(32de28f06414f774cb123ae4f9d69f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c8c7625e74d6a1fc3edea7b7cc7bbc') in 0.082018 seconds 
+  Import took 0.090686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Balcony_Stairs_01.fbx
+  artifactKey: Guid(cf1e04c644257db4e8ded46f025bc070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Balcony_Stairs_01.fbx using Guid(cf1e04c644257db4e8ded46f025bc070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310e96d683f3d7ce2719674198bfa06a') in 0.064680 seconds 
+  Import took 0.075230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Front_01.fbx
+  artifactKey: Guid(7f87cd548156e204baf471c1abc0c545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Front_01.fbx using Guid(7f87cd548156e204baf471c1abc0c545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387c7619903c72ccac91dcefbc7acfcf') in 0.107521 seconds 
+  Import took 0.113569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_DeckCover_01.fbx
+  artifactKey: Guid(f1336e5675b86324b91e84c8307ba2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_DeckCover_01.fbx using Guid(f1336e5675b86324b91e84c8307ba2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b714543f25cbb55df2606ef0fe0f2c2') in 0.100373 seconds 
+  Import took 0.107135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/PolygonWestern/Models/SM_CharacterAttachments_Pouch_02.fbx
+  artifactKey: Guid(614b6753dd253dd43b7a57218eaf5c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_CharacterAttachments_Pouch_02.fbx using Guid(614b6753dd253dd43b7a57218eaf5c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b117796efdc328f864b210cb407e3c3b') in 0.054372 seconds 
+  Import took 0.059614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Road_Patch_01.fbx
+  artifactKey: Guid(98dea75db154787419bdf36134bf546f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Road_Patch_01.fbx using Guid(98dea75db154787419bdf36134bf546f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991f9a3a07025744b934334ac746b497') in 0.079624 seconds 
+  Import took 0.087002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Facade_03.fbx
+  artifactKey: Guid(e07a5021f97ce3943bee8642075e2e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Facade_03.fbx using Guid(e07a5021f97ce3943bee8642075e2e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e71d6ec9b843d3df19a1205b14b6dc') in 0.066398 seconds 
+  Import took 0.072417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Large_01.fbx
+  artifactKey: Guid(fa579352358ad7a41b98d636af80f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Large_01.fbx using Guid(fa579352358ad7a41b98d636af80f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c298bd915380385b9c1e6b47981e70') in 0.171362 seconds 
+  Import took 0.177678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonWestern/Models/SM_CharacterAttachments_Bandana_01.fbx
+  artifactKey: Guid(1fb50a7be9ac6fa4d95c7c2034cbd41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_CharacterAttachments_Bandana_01.fbx using Guid(1fb50a7be9ac6fa4d95c7c2034cbd41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d22092e4b4f6aaea0d290bb3697e87') in 0.089434 seconds 
+  Import took 0.096632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_Roof_02.fbx
+  artifactKey: Guid(dff1738503200f042a965b2182e675ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_Roof_02.fbx using Guid(dff1738503200f042a965b2182e675ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5052ffecb5c1578f384ac68e58a692bd') in 0.067407 seconds 
+  Import took 0.075851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Double_DeckCover_02.fbx
+  artifactKey: Guid(07e59c9a5c57460418a991b28a67e3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Double_DeckCover_02.fbx using Guid(07e59c9a5c57460418a991b28a67e3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45921824fc578ba152c3ea030e8795a1') in 0.044157 seconds 
+  Import took 0.049556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Outhouse_01.fbx
+  artifactKey: Guid(be0c14e67c7a7f44db86f1f2e59788d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Outhouse_01.fbx using Guid(be0c14e67c7a7f44db86f1f2e59788d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a338f2f44971bb38916f923e9f68071') in 0.094932 seconds 
+  Import took 0.101844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_10.fbx
+  artifactKey: Guid(db410bca5752577469d1853bbd46996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_10.fbx using Guid(db410bca5752577469d1853bbd46996b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0897c3b9545fb1091062674301d2c2d2') in 0.033425 seconds 
+  Import took 0.038770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Facade_04.fbx
+  artifactKey: Guid(f9d7c567e8e73764995cc4f4df56bc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Facade_04.fbx using Guid(f9d7c567e8e73764995cc4f4df56bc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ffa7a9e67938e73559543700873d6a') in 0.057006 seconds 
+  Import took 0.064565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Facade_01.fbx
+  artifactKey: Guid(5378c733a0321e441b456c5d7de4c5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Facade_01.fbx using Guid(5378c733a0321e441b456c5d7de4c5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c22c4eed8aa883579a25e56a1f7ee6') in 0.057639 seconds 
+  Import took 0.064183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_CampFire_01.fbx
+  artifactKey: Guid(f0372274699125d4c80c9ed7e8558015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_CampFire_01.fbx using Guid(f0372274699125d4c80c9ed7e8558015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbdaae67db31a511ee102a3df00203a') in 0.035428 seconds 
+  Import took 0.041734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Train_Track_Straight_01.fbx
+  artifactKey: Guid(3b4c5e3654c28dc45a10b8198accd7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Train_Track_Straight_01.fbx using Guid(3b4c5e3654c28dc45a10b8198accd7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1647e0c42fa19b807953276aa47353d') in 0.069057 seconds 
+  Import took 0.075051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/PolygonWestern/Models
+  artifactKey: Guid(f8fb6b9f108d9574fa8dfa3b3ef50263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models using Guid(f8fb6b9f108d9574fa8dfa3b3ef50263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e83aa2453782c10d5b3b95574155d85') in 0.016643 seconds 
+  Import took 0.025101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Single_Balcony_01.fbx
+  artifactKey: Guid(c3926d48332ce3d4dbe8db3a389524aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Single_Balcony_01.fbx using Guid(c3926d48332ce3d4dbe8db3a389524aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee4f31f57c2219420ba59785d23f01f') in 0.081431 seconds 
+  Import took 0.087068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_04.fbx
+  artifactKey: Guid(0a3ffdd6f434995419c793091e4c1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_04.fbx using Guid(0a3ffdd6f434995419c793091e4c1739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b97e9f4efffb709b3b469310610c6f') in 0.063316 seconds 
+  Import took 0.071525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Shed_01.fbx
+  artifactKey: Guid(d884cddc73a4ac240b3a4f281c11a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Shed_01.fbx using Guid(d884cddc73a4ac240b3a4f281c11a219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4c2a40e670d8cb22768faeb47ec788') in 0.085193 seconds 
+  Import took 0.091055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Butte_02.fbx
+  artifactKey: Guid(75498dfc07b9de24086482658b710f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Butte_02.fbx using Guid(75498dfc07b9de24086482658b710f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c488c84ebd2c9f75e237c0d430a71734') in 0.064448 seconds 
+  Import took 0.072148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Basket_03.fbx
+  artifactKey: Guid(f2dcaa4196abe7b46a58bda8e67544e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Basket_03.fbx using Guid(f2dcaa4196abe7b46a58bda8e67544e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba766fda836f9c476ccc3fb3064cd37') in 0.176701 seconds 
+  Import took 0.182876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bench_01.fbx
+  artifactKey: Guid(28c1093cf242dd54ca89ff0f44ef4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bench_01.fbx using Guid(28c1093cf242dd54ca89ff0f44ef4f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f21cacf68d0bf885f0a125981cb3e6') in 0.066525 seconds 
+  Import took 0.072653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Cloud_01.fbx
+  artifactKey: Guid(1c4bb0bb493ee074b93b99a426f1887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Cloud_01.fbx using Guid(1c4bb0bb493ee074b93b99a426f1887d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af51e1e326b7b6f5492a953e5bfbb63') in 0.068834 seconds 
+  Import took 0.074891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonWestern/Models/SM_Bld_Sign_01.fbx
+  artifactKey: Guid(4d1bb3c1a8b8cca45b03c89a43367dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Bld_Sign_01.fbx using Guid(4d1bb3c1a8b8cca45b03c89a43367dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b846b3c6e88e624e316f0410f244af5') in 0.053563 seconds 
+  Import took 0.061881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Rocks_01.fbx
+  artifactKey: Guid(3254391a65835ec4a829497f1a6aaadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Rocks_01.fbx using Guid(3254391a65835ec4a829497f1a6aaadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e24b8561215dd35dbc1ed3fc407437') in 0.077048 seconds 
+  Import took 0.082809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_06.fbx
+  artifactKey: Guid(5c3d2c7795fda604db6fde541e509fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_06.fbx using Guid(5c3d2c7795fda604db6fde541e509fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fed14599dc299ba5e3bd3170b3cab2a') in 0.048838 seconds 
+  Import took 0.055893 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.087 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2088ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1762ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (457ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2025 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.3 MB.
+System memory in use after: 112.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2502.
+Total: 7.721600 ms (FindLiveObjects: 0.575300 ms CreateObjectMapping: 0.184400 ms MarkObjects: 6.577400 ms  DeleteObjects: 0.382500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227.651601 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_02.fbx
+  artifactKey: Guid(4956bdb6d9d0f3a48a8a58bc7fd17dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_02.fbx using Guid(4956bdb6d9d0f3a48a8a58bc7fd17dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f30559b183c3b1e6dcd2b467b07562f') in 0.375826 seconds 
+  Import took 0.380614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bush_01.fbx
+  artifactKey: Guid(6cf691ae2895e3a40be9d562efab8295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bush_01.fbx using Guid(6cf691ae2895e3a40be9d562efab8295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4bd26d1a1cc627d86b6481cc898add') in 0.084791 seconds 
+  Import took 0.088786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_02.fbx
+  artifactKey: Guid(737afd5c444ebc140b33fb34a674359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_02.fbx using Guid(737afd5c444ebc140b33fb34a674359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0a8fcd6885f95b60596bea0173d32f') in 0.049324 seconds 
+  Import took 0.053171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Crate_01.fbx
+  artifactKey: Guid(57854fb99ba71af4286b47d5771ce020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Crate_01.fbx using Guid(57854fb99ba71af4286b47d5771ce020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9283403d428d78482966e259410617e') in 0.058370 seconds 
+  Import took 0.061992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Cash_Register_01.fbx
+  artifactKey: Guid(9c02b7dd6d9281a4fb1745fdcf251f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Cash_Register_01.fbx using Guid(9c02b7dd6d9281a4fb1745fdcf251f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7480e4c3f351566342d26096d7a0ce0d') in 0.052699 seconds 
+  Import took 0.057209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Dresser_01.fbx
+  artifactKey: Guid(38588795de01a814f9d1626bf689b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Dresser_01.fbx using Guid(38588795de01a814f9d1626bf689b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444b632dbf3b097e1ccda8c9d70a9072') in 0.057076 seconds 
+  Import took 0.062232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_03.fbx
+  artifactKey: Guid(68a83d28a30556a4b8748cd5d016d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_03.fbx using Guid(68a83d28a30556a4b8748cd5d016d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21159eacf05bcbe89a090abef75e38d4') in 0.065388 seconds 
+  Import took 0.070560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Gallows_01.fbx
+  artifactKey: Guid(f9a74fec37846ed40a4d4d42dcdc20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Gallows_01.fbx using Guid(f9a74fec37846ed40a4d4d42dcdc20f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610bf7b59475acdae994029f26a93ee4') in 0.050897 seconds 
+  Import took 0.056286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Church_Cross_01.fbx
+  artifactKey: Guid(bd8c7b3daad282e48848f9279742d8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Church_Cross_01.fbx using Guid(bd8c7b3daad282e48848f9279742d8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e79bfaf5c9fd4220006fbddcd40d7e8') in 0.061574 seconds 
+  Import took 0.065799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Fireplace_01_SmokeStack.fbx
+  artifactKey: Guid(16887bad0e568514eb1d73f30b938bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Fireplace_01_SmokeStack.fbx using Guid(16887bad0e568514eb1d73f30b938bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a6ffb5575d1ddb45d1d56b284d579e') in 0.038291 seconds 
+  Import took 0.043787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_MooseHead_01.fbx
+  artifactKey: Guid(e26d55ec83d857544a59b730ccaf352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_MooseHead_01.fbx using Guid(e26d55ec83d857544a59b730ccaf352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbe1b56aadfcf9c6ca199cfc16b158a') in 0.038288 seconds 
+  Import took 0.041705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Cup_02.fbx
+  artifactKey: Guid(a350ade276fb0ca4e8d3fd24555df75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Cup_02.fbx using Guid(a350ade276fb0ca4e8d3fd24555df75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838e1012b418608b5c0e26a74373b5f3') in 0.025290 seconds 
+  Import took 0.030051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_CartWheel_01.fbx
+  artifactKey: Guid(834985d0e9aa21f47b0614a4f326fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_CartWheel_01.fbx using Guid(834985d0e9aa21f47b0614a4f326fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c01952b86b87ff46fbe94a081c6e24') in 0.025966 seconds 
+  Import took 0.030825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Lantern_02.fbx
+  artifactKey: Guid(ecb9a67c18527fe4cb435680e2e01b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Lantern_02.fbx using Guid(ecb9a67c18527fe4cb435680e2e01b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407e9378a612effa0daad04b32998200') in 0.045339 seconds 
+  Import took 0.049981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_01.fbx
+  artifactKey: Guid(4e18492d49b82c14c910933762091f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_01.fbx using Guid(4e18492d49b82c14c910933762091f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda71cae76ee3de75ac17bd09d710a55') in 0.038351 seconds 
+  Import took 0.042215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Fireplace_01.fbx
+  artifactKey: Guid(b6506ccabf0d6da4bb12e4865732c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Fireplace_01.fbx using Guid(b6506ccabf0d6da4bb12e4865732c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5591ce9a7e8809c7ecb90d0393c4b159') in 0.065754 seconds 
+  Import took 0.069598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Hay_Bale_01.fbx
+  artifactKey: Guid(fd0a9503482593740bb8e3fcfa8e0a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Hay_Bale_01.fbx using Guid(fd0a9503482593740bb8e3fcfa8e0a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7880ed00544dc85a1d61af5f7cf01be0') in 0.036512 seconds 
+  Import took 0.041311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Coffin_01.fbx
+  artifactKey: Guid(8ef720f53bf71744085e1292b4e6922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Coffin_01.fbx using Guid(8ef720f53bf71744085e1292b4e6922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7129ddec575be67ff22f3e60509dc23c') in 0.064745 seconds 
+  Import took 0.068740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Curtain_Rail_01.fbx
+  artifactKey: Guid(b5f965b285d441d4ea7e6fe74a1f5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Curtain_Rail_01.fbx using Guid(b5f965b285d441d4ea7e6fe74a1f5335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6557af22681314a7d5fba1c4cf06e42c') in 0.044988 seconds 
+  Import took 0.049037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_03.fbx
+  artifactKey: Guid(5862caab162e4c64bad443a05c8caf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_03.fbx using Guid(5862caab162e4c64bad443a05c8caf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a0668bf3ae6bbc30c27b59a8f774d0') in 0.041610 seconds 
+  Import took 0.046187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Curtain_02.fbx
+  artifactKey: Guid(6a5df79a88118704e80b132c7e4ed29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Curtain_02.fbx using Guid(6a5df79a88118704e80b132c7e4ed29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0384118300a92fcc0e427f1ab46699dd') in 0.055900 seconds 
+  Import took 0.059420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Piano_01.fbx
+  artifactKey: Guid(8b4ba10810b8e774382db13f0fdb5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Piano_01.fbx using Guid(8b4ba10810b8e774382db13f0fdb5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55de1f34d719e617bfc789d8683564d') in 0.064649 seconds 
+  Import took 0.068082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Candle_01.fbx
+  artifactKey: Guid(2f273ddb4d179464dabcedde6aa211e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Candle_01.fbx using Guid(2f273ddb4d179464dabcedde6aa211e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe85d3632657b0dd9c386e4572c5b9b') in 0.064987 seconds 
+  Import took 0.068202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Card_01.fbx
+  artifactKey: Guid(509f8836af8bc94439c0a9e4fb78213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Card_01.fbx using Guid(509f8836af8bc94439c0a9e4fb78213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2925d2703270385e447422bde4e598d8') in 0.025478 seconds 
+  Import took 0.028763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_07.fbx
+  artifactKey: Guid(aaec7d7d11c440e4fbd6bd2c1c27d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_07.fbx using Guid(aaec7d7d11c440e4fbd6bd2c1c27d7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997b155ba53d23190c3c3e449170b08f') in 0.077281 seconds 
+  Import took 0.081082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Milk_Container_01.fbx
+  artifactKey: Guid(aeaa6fa694beb6b4290aef6ae39fcedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Milk_Container_01.fbx using Guid(aeaa6fa694beb6b4290aef6ae39fcedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1778b95a275d60a84dc65fcd1a59b') in 0.047634 seconds 
+  Import took 0.051215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_Candle_01.fbx
+  artifactKey: Guid(e2d29fe78b1b34847aaa4a8407aab95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_Candle_01.fbx using Guid(e2d29fe78b1b34847aaa4a8407aab95f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27196bca80f3cab33ece675096ce099d') in 0.051917 seconds 
+  Import took 0.055188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Fence_Stick_01.fbx
+  artifactKey: Guid(deb3ce87427716c49ac5f6e7013ab2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Fence_Stick_01.fbx using Guid(deb3ce87427716c49ac5f6e7013ab2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a58ce4e44ef59d6124749a15ea51cd') in 0.118347 seconds 
+  Import took 0.121939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Saddle_01.fbx
+  artifactKey: Guid(912f69d646dad8540990a437c64980cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Saddle_01.fbx using Guid(912f69d646dad8540990a437c64980cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b027061aabeaa8a7f6e8f9ed32ee79a7') in 0.058809 seconds 
+  Import took 0.062439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Table_Small_01.fbx
+  artifactKey: Guid(6e6e2c0cdf01c6c418fc5008458a11ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Table_Small_01.fbx using Guid(6e6e2c0cdf01c6c418fc5008458a11ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f520ccf521d1c01bc2fad011c6f8fd09') in 0.047031 seconds 
+  Import took 0.050134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_Hanging_01.fbx
+  artifactKey: Guid(30eb3a54d33e072489df33b40ed1af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_Hanging_01.fbx using Guid(30eb3a54d33e072489df33b40ed1af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046a1445d57a155ebcbd6ffb51fe7495') in 0.029849 seconds 
+  Import took 0.033350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Suitcase_01.fbx
+  artifactKey: Guid(3cb202f261216ba45bda782f346bc538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Suitcase_01.fbx using Guid(3cb202f261216ba45bda782f346bc538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d6d5be9e739e5ce69ee40dbf609384') in 0.070351 seconds 
+  Import took 0.074049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_PokerTable_01.fbx
+  artifactKey: Guid(6e1fd8a794f1a944293a36f979d9d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_PokerTable_01.fbx using Guid(6e1fd8a794f1a944293a36f979d9d5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf451c9c850636bbafb9edee5570846f') in 0.028336 seconds 
+  Import took 0.033288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Sack_01.fbx
+  artifactKey: Guid(fbeb74b4e3da95745b6a12a3c307dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Sack_01.fbx using Guid(fbeb74b4e3da95745b6a12a3c307dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e4753400acd3de56008e1b4bc34f8c') in 0.055936 seconds 
+  Import took 0.060582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Shelf_01.fbx
+  artifactKey: Guid(b4ef2cfe3c1043c4c942c0a896a04cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Shelf_01.fbx using Guid(b4ef2cfe3c1043c4c942c0a896a04cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91730fcb6c64169393fd118f1dc98987') in 0.038859 seconds 
+  Import took 0.043736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Tin_02.fbx
+  artifactKey: Guid(78d28978f1e9a23428bf14e3a2d40778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Tin_02.fbx using Guid(78d28978f1e9a23428bf14e3a2d40778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9473197cd6663751b2c94ab45653a5bf') in 0.036976 seconds 
+  Import took 0.040364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Stool_01.fbx
+  artifactKey: Guid(2d5018607db3ddf4cba2787df6ac6a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Stool_01.fbx using Guid(2d5018607db3ddf4cba2787df6ac6a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9ce8c3ff7194a05ccf5a97ed0f59b2') in 0.057481 seconds 
+  Import took 0.061949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_02.fbx
+  artifactKey: Guid(3f42a40fa6681d14daa1ef7194c96a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_02.fbx using Guid(3f42a40fa6681d14daa1ef7194c96a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6c5cb8a6e1bd3238c52e42c0f6552e') in 0.064395 seconds 
+  Import took 0.069353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_WaterTrough_01.fbx
+  artifactKey: Guid(4a17ba37dd757bf4d8446aad4ef40659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_WaterTrough_01.fbx using Guid(4a17ba37dd757bf4d8446aad4ef40659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91921d947a15c1fe9117101513d8a68') in 0.080101 seconds 
+  Import took 0.084831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_Shotgun_02.fbx
+  artifactKey: Guid(df58222a7f8b1b748ba02a42666c1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_Shotgun_02.fbx using Guid(df58222a7f8b1b748ba02a42666c1b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014dbc9cc9ffe63d98e6453f83851fc5') in 0.072388 seconds 
+  Import took 0.075617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_Rifle_01.fbx
+  artifactKey: Guid(fe5bb1c2b68917b4095d09992c5d5223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_Rifle_01.fbx using Guid(fe5bb1c2b68917b4095d09992c5d5223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f999bbaea9127f9fefac4a491a85496f') in 0.087148 seconds 
+  Import took 0.090860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonWestern/Models/SM_Veh_Train_Coal_01.fbx
+  artifactKey: Guid(0d9eb056b9818684c9ccf449840d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Veh_Train_Coal_01.fbx using Guid(0d9eb056b9818684c9ccf449840d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c1a63f153127ae529d5b87f83e3375') in 0.043203 seconds 
+  Import took 0.047986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_04.fbx
+  artifactKey: Guid(5620b099fc9c4964a895c2a591b0c10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_04.fbx using Guid(5620b099fc9c4964a895c2a591b0c10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575ecfe16b433db53f5d9681ba67f0b5') in 0.035256 seconds 
+  Import took 0.040811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_01.fbx
+  artifactKey: Guid(4ca3f9a3da21db346845f2c3d64a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_01.fbx using Guid(4ca3f9a3da21db346845f2c3d64a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dc897cda35b869f7bbbde927e6beae') in 0.037840 seconds 
+  Import took 0.042374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_02.fbx
+  artifactKey: Guid(0b3e6d8652f02524f8e53d0a7a4563a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_02.fbx using Guid(0b3e6d8652f02524f8e53d0a7a4563a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e862ae7c3650b013b260dfd3359daeee') in 0.059647 seconds 
+  Import took 0.062921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/PolygonWestern/Models/SM_Veh_Train_Freight_01.fbx
+  artifactKey: Guid(cb84bfb8e15d2794f8a852e0e617db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Veh_Train_Freight_01.fbx using Guid(cb84bfb8e15d2794f8a852e0e617db9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6ca1f2b3296bee0b2aae81cc561f4e') in 0.153318 seconds 
+  Import took 0.156852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Table_Vegetables_01.fbx
+  artifactKey: Guid(fba90fa6279d0984d87ddd8a32fc7a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Table_Vegetables_01.fbx using Guid(fba90fa6279d0984d87ddd8a32fc7a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5b3963da9b5ebad3fb956214e0890d') in 0.026548 seconds 
+  Import took 0.030959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Sack_02.fbx
+  artifactKey: Guid(5cd867e183af02c4ba17a56707b5840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Sack_02.fbx using Guid(5cd867e183af02c4ba17a56707b5840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef24bc3199a5a83619567e390f066273') in 0.027229 seconds 
+  Import took 0.030839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Tumbleweed_01.fbx
+  artifactKey: Guid(7e51a4691982c9140a5cda4c8cdb2640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Tumbleweed_01.fbx using Guid(7e51a4691982c9140a5cda4c8cdb2640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919260729817d8eef3f4605514ec68ea') in 0.029231 seconds 
+  Import took 0.034142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Poker_Chip_03.fbx
+  artifactKey: Guid(085aca416ad42234ba8b9084399e297b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Poker_Chip_03.fbx using Guid(085aca416ad42234ba8b9084399e297b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee12bddfa8ab589e0919304e3a8dc03') in 0.043418 seconds 
+  Import took 0.046923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Curtain_01.fbx
+  artifactKey: Guid(bec8d00f785002d4fa0331b06df2f972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Curtain_01.fbx using Guid(bec8d00f785002d4fa0331b06df2f972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ae24de687eeb512fa010027711bb9e') in 0.060437 seconds 
+  Import took 0.064461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Card_03.fbx
+  artifactKey: Guid(0ac84729d15d70c4ea63a6c56333cae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Card_03.fbx using Guid(0ac84729d15d70c4ea63a6c56333cae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43f843120d7df67f91e3b457e00fda0') in 0.030053 seconds 
+  Import took 0.034246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Loghalf_01.fbx
+  artifactKey: Guid(59f79d8fdee88d746b2b2524b014a927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Loghalf_01.fbx using Guid(59f79d8fdee88d746b2b2524b014a927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cb6f48778e8ab7fb9c6b950585af80') in 0.038948 seconds 
+  Import took 0.043618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Tin_03.fbx
+  artifactKey: Guid(99d74cc1ecd1f8042975979b7f8023ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Tin_03.fbx using Guid(99d74cc1ecd1f8042975979b7f8023ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdc2487c0f91c6bacd27c608e356b9f') in 0.091491 seconds 
+  Import took 0.095127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_01.fbx
+  artifactKey: Guid(42033af3e57c199419fcbf23e12af7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_01.fbx using Guid(42033af3e57c199419fcbf23e12af7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dcc5161a3542beca9cc63262ecf70c') in 0.040307 seconds 
+  Import took 0.044282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Church_Podium_01.fbx
+  artifactKey: Guid(860e9234d7f3d06439c6c2d2d5139b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Church_Podium_01.fbx using Guid(860e9234d7f3d06439c6c2d2d5139b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd09093c6b4f303f56e92871224390a5') in 0.061086 seconds 
+  Import took 0.064121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Map_01.fbx
+  artifactKey: Guid(7b1de5e8fb98e0f4e8f90da85c8a55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Map_01.fbx using Guid(7b1de5e8fb98e0f4e8f90da85c8a55a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0f94776b0aa00c846b2633cb3356a0') in 0.037178 seconds 
+  Import took 0.040329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_01.fbx
+  artifactKey: Guid(fec4589b13ba5c44bbdd4ae91470ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_01.fbx using Guid(fec4589b13ba5c44bbdd4ae91470ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225e1b51e454d23dbe34c995240ff018') in 0.045899 seconds 
+  Import took 0.049182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_03.fbx
+  artifactKey: Guid(5435ebbb571f71a45bfb0fa0feaaf5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_03.fbx using Guid(5435ebbb571f71a45bfb0fa0feaaf5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6801dff13d2a359b22bf438154f80f3') in 0.027654 seconds 
+  Import took 0.031661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Sack_04.fbx
+  artifactKey: Guid(4473ec1dd74f8444aba5c404a385275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Sack_04.fbx using Guid(4473ec1dd74f8444aba5c404a385275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee89cde842ca0f88e2928ce81371b0d') in 0.041161 seconds 
+  Import took 0.044733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_01.fbx
+  artifactKey: Guid(9cf456c274860084c8f685cd577c559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_01.fbx using Guid(9cf456c274860084c8f685cd577c559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063dc6a9510d270514a8beb8034e05ab') in 0.035999 seconds 
+  Import took 0.040223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_Candle_02.fbx
+  artifactKey: Guid(2390102983901184a9036f00fff4ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_Candle_02.fbx using Guid(2390102983901184a9036f00fff4ce0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a24c34f917f85c8d4efdd61038e2feb') in 0.044439 seconds 
+  Import took 0.047765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonWestern/Models/SM_Veh_Stagecoach_01.fbx
+  artifactKey: Guid(31df0c18789189b4baff448d1eeba89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Veh_Stagecoach_01.fbx using Guid(31df0c18789189b4baff448d1eeba89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4250301fda0b6a62e982f60a73d059') in 0.110848 seconds 
+  Import took 0.113893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Church_Cross_02.fbx
+  artifactKey: Guid(9cdda25f40c6ccd49a5484fb193cebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Church_Cross_02.fbx using Guid(9cdda25f40c6ccd49a5484fb193cebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669e0738bf24bacd2a9c3b04623b3245') in 0.024400 seconds 
+  Import took 0.027629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Sack_03.fbx
+  artifactKey: Guid(d4c05248a4afe6a4394dbbba0cfd77a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Sack_03.fbx using Guid(d4c05248a4afe6a4394dbbba0cfd77a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745b96a2733f50eadf12f0c20eb63fff') in 0.031896 seconds 
+  Import took 0.035582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonWestern/Models/SM_Veh_Train_Carriage_01.fbx
+  artifactKey: Guid(6e17b4f6d557b41488d66ba9d108795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Veh_Train_Carriage_01.fbx using Guid(6e17b4f6d557b41488d66ba9d108795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8390d3dc40eae3f3c42ed1d9d4277dbc') in 0.113443 seconds 
+  Import took 0.117476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Table_01.fbx
+  artifactKey: Guid(a8d3c6ee3b299bf4dbe071d0790c3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Table_01.fbx using Guid(a8d3c6ee3b299bf4dbe071d0790c3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63de3519964ef7d98cfedf3f93fff150') in 0.062670 seconds 
+  Import took 0.066078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Church_Door_01.fbx
+  artifactKey: Guid(b63c59e2675172349a171facb5f7824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Church_Door_01.fbx using Guid(b63c59e2675172349a171facb5f7824d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5776575988298bc009e37752c2542ec') in 0.030966 seconds 
+  Import took 0.033929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Card_02.fbx
+  artifactKey: Guid(4c8c8fe18783fe1489101c6ab1becd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Card_02.fbx using Guid(4c8c8fe18783fe1489101c6ab1becd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f22ce111d7379c051a5859e7d8be559') in 0.069941 seconds 
+  Import took 0.072945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_05.fbx
+  artifactKey: Guid(e4b2baf3b3a823f4d836ad447dd58385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_05.fbx using Guid(e4b2baf3b3a823f4d836ad447dd58385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed74aa03a2a732fe3f230244b4649dd') in 0.075015 seconds 
+  Import took 0.079184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_American_Bayonet_01.fbx
+  artifactKey: Guid(5a298362c20a9d84b86945ef45236c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_American_Bayonet_01.fbx using Guid(5a298362c20a9d84b86945ef45236c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654c4c0496e549458b9f5ceae3405f6a') in 0.047115 seconds 
+  Import took 0.051827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonWestern/Models/SM_Veh_Cart_01.fbx
+  artifactKey: Guid(31182badf6f318447a3c36d11c544025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Veh_Cart_01.fbx using Guid(31182badf6f318447a3c36d11c544025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6236638b422d4ca6a5865cbebad747') in 0.057379 seconds 
+  Import took 0.060665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Suitcase_02.fbx
+  artifactKey: Guid(43c62f0255b93994183387f89447dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Suitcase_02.fbx using Guid(43c62f0255b93994183387f89447dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5674d6eea009056acd4123ccc26c79') in 0.045722 seconds 
+  Import took 0.049057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_03.fbx
+  artifactKey: Guid(12d57ccd620873343809e8264b5d7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Vegetables_Box_03.fbx using Guid(12d57ccd620873343809e8264b5d7967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aca7174f33e186ea6b6debc0cc7aac') in 0.037391 seconds 
+  Import took 0.040551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Stool_Round_01.fbx
+  artifactKey: Guid(2836a48da2671ff4ab160efc78b38b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Stool_Round_01.fbx using Guid(2836a48da2671ff4ab160efc78b38b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7d6054868196c56981bfaf4ea41a81') in 0.039029 seconds 
+  Import took 0.042366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Tumbleweed_02.fbx
+  artifactKey: Guid(ab0ee7f7c5210e04aae4ac8eb44086d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Tumbleweed_02.fbx using Guid(ab0ee7f7c5210e04aae4ac8eb44086d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c066cc67532317daac8a54522a3dcb76') in 0.036818 seconds 
+  Import took 0.039754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Map_02.fbx
+  artifactKey: Guid(2ba7621e5f4a2f344b79b03fdd4d73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Map_02.fbx using Guid(2ba7621e5f4a2f344b79b03fdd4d73a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42205fe6cd9239c890155a4ac6a68fe6') in 0.034511 seconds 
+  Import took 0.037640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Building_Smokestack_01.fbx
+  artifactKey: Guid(b57a36dd5ee382f438bc1b3cbe9e6a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Building_Smokestack_01.fbx using Guid(b57a36dd5ee382f438bc1b3cbe9e6a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ba7ec169a0859b4d7cdfa70bfa9c46') in 0.052712 seconds 
+  Import took 0.055721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Church_Pew_01.fbx
+  artifactKey: Guid(a85a5a5164e77eb499c9203206e9deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Church_Pew_01.fbx using Guid(a85a5a5164e77eb499c9203206e9deac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4864a067a36fba9780eea6f92e50b7') in 0.044658 seconds 
+  Import took 0.047649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Pot_01.fbx
+  artifactKey: Guid(0f4303ba898293e46840ee2e338e5503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Pot_01.fbx using Guid(0f4303ba898293e46840ee2e338e5503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba65923f61c98fc695228e72b38adef') in 0.052604 seconds 
+  Import took 0.056173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_Shotgun_01.fbx
+  artifactKey: Guid(73b31b236f0c34b42a936983554c4f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_Shotgun_01.fbx using Guid(73b31b236f0c34b42a936983554c4f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b7d8886766f7bfbcafb6c9cfb9bdc6') in 0.100584 seconds 
+  Import took 0.104072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_DeckRail_01.fbx
+  artifactKey: Guid(5c47ecf413a0bdd4cb77a41e1d58cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_DeckRail_01.fbx using Guid(5c47ecf413a0bdd4cb77a41e1d58cd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4cdaf4ddcd53625b48592b92d6d5980') in 0.050904 seconds 
+  Import took 0.053977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Piano_Seat_01.fbx
+  artifactKey: Guid(43d8157d9d21ded41adaf0585470891c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Piano_Seat_01.fbx using Guid(43d8157d9d21ded41adaf0585470891c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519bee28b3f4a6a46e40a306d7d3fe8b') in 0.037830 seconds 
+  Import took 0.041117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_04.fbx
+  artifactKey: Guid(02c241ee54fa3b74bb76131a27e54f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_Broken_04.fbx using Guid(02c241ee54fa3b74bb76131a27e54f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8ea2017f41183b0415c45bf39f8265') in 0.022700 seconds 
+  Import took 0.027135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Stick_Bundle_01.fbx
+  artifactKey: Guid(d69ddbfccbc1203438fc6b0bcaba8b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Stick_Bundle_01.fbx using Guid(d69ddbfccbc1203438fc6b0bcaba8b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8e1a68cd60c6c2031da5c4ba6b19ab') in 0.043799 seconds 
+  Import took 0.047905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_MessageBoard.fbx
+  artifactKey: Guid(de79942d2ac9d1d4ea7ec19b721348c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_MessageBoard.fbx using Guid(de79942d2ac9d1d4ea7ec19b721348c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a41578aef844c32687384d8b7ec38fe') in 0.062756 seconds 
+  Import took 0.066511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_03.fbx
+  artifactKey: Guid(58b552eac1baa9c4d9025220ab0f53a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_03.fbx using Guid(58b552eac1baa9c4d9025220ab0f53a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd915ec901a05aac56fc00663282ffef1') in 0.094739 seconds 
+  Import took 0.097841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_04.fbx
+  artifactKey: Guid(95001ddb25d5b134fb01102228c2477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_04.fbx using Guid(95001ddb25d5b134fb01102228c2477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f4cd76e8e33c95a92d5037629bf92') in 0.033227 seconds 
+  Import took 0.036344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_04.fbx
+  artifactKey: Guid(036946aea9bac684c929694b766ea08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_04.fbx using Guid(036946aea9bac684c929694b766ea08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b841ec300d59fc957c199f7673ff49d') in 0.040825 seconds 
+  Import took 0.043733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Poker_Chip_01.fbx
+  artifactKey: Guid(b6d14e1453db57949bdbae2107545856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Poker_Chip_01.fbx using Guid(b6d14e1453db57949bdbae2107545856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e829da8e0a8419fac9467f498a4ed850') in 0.038184 seconds 
+  Import took 0.042646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Vault_01.fbx
+  artifactKey: Guid(8197efeb75895a447bcff31f37c837b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Vault_01.fbx using Guid(8197efeb75895a447bcff31f37c837b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f76a3d76c0bb5c2fba51515aac751d3') in 0.044841 seconds 
+  Import took 0.048074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_JailBed_01.fbx
+  artifactKey: Guid(32b6049b7f71d654cb3fe41f2a2eb925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_JailBed_01.fbx using Guid(32b6049b7f71d654cb3fe41f2a2eb925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336889a4675f3ed0654eef19ae511e64') in 0.031108 seconds 
+  Import took 0.034304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_03.fbx
+  artifactKey: Guid(3e2f1344937a6bf4c9c17c46dc56f13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_03.fbx using Guid(3e2f1344937a6bf4c9c17c46dc56f13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34788f8ee93375515b0423a945348eec') in 0.048189 seconds 
+  Import took 0.051357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_06.fbx
+  artifactKey: Guid(c6817a6f08e8aa34b9cd41f86b0680a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_06.fbx using Guid(c6817a6f08e8aa34b9cd41f86b0680a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b292ac942f512faf2334ac5ba512154b') in 0.024264 seconds 
+  Import took 0.027300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_HitchingPost_01.fbx
+  artifactKey: Guid(615ed493e26ed55418401354f6f38c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_HitchingPost_01.fbx using Guid(615ed493e26ed55418401354f6f38c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e75960074a7fc26289ca8b24e32122') in 0.024556 seconds 
+  Import took 0.027987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Tin_01.fbx
+  artifactKey: Guid(1551e462ef0504b4cb3ab57e6b40409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Tin_01.fbx using Guid(1551e462ef0504b4cb3ab57e6b40409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5a656936bbf586511afb035a91ba9c') in 0.077838 seconds 
+  Import took 0.080806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Entrance_02.fbx
+  artifactKey: Guid(e1ede88134d193840ba84785fedbe6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Entrance_02.fbx using Guid(e1ede88134d193840ba84785fedbe6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6568cda5e9add23a1a23f7ca2fabef83') in 0.046011 seconds 
+  Import took 0.049018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Lantern_01.fbx
+  artifactKey: Guid(07171454384603d4686663708ee56994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Lantern_01.fbx using Guid(07171454384603d4686663708ee56994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f9742e66c13d18c554d56aab456e60') in 0.053787 seconds 
+  Import took 0.056975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Cow_Skull_01.fbx
+  artifactKey: Guid(f8929a0e0e5e0b44782dbeac49f5ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Cow_Skull_01.fbx using Guid(f8929a0e0e5e0b44782dbeac49f5ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088a5dadc0cc5f8689adeb8b6bea4934') in 0.040759 seconds 
+  Import took 0.043947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Grave_06.fbx
+  artifactKey: Guid(62bb4878c774ac049a248541e73361d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Grave_06.fbx using Guid(62bb4878c774ac049a248541e73361d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a384fca15ce4ae6eecab9af44409274e') in 0.034650 seconds 
+  Import took 0.037806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Water_Tower_01.fbx
+  artifactKey: Guid(4cbc670f5ae477a4bb1ab8e8ffa7e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Water_Tower_01.fbx using Guid(4cbc670f5ae477a4bb1ab8e8ffa7e439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589af824846f658fbcf2454a1ce7ecfa') in 0.046479 seconds 
+  Import took 0.050154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_02.fbx
+  artifactKey: Guid(75a70f9b12afdb54f8567e541a13afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_02.fbx using Guid(75a70f9b12afdb54f8567e541a13afcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2011e12ab2943ef9aafedd817e1c2236') in 0.040036 seconds 
+  Import took 0.044073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Ladder_01.fbx
+  artifactKey: Guid(7d4cfa2272f42ab4987190dc365f3f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Ladder_01.fbx using Guid(7d4cfa2272f42ab4987190dc365f3f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7514c3e7984d836ddd447aa9df1175') in 0.046725 seconds 
+  Import took 0.049979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_Revolver_02.fbx
+  artifactKey: Guid(d6ee3ef0d6f5fde48a144237af0f5fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_Revolver_02.fbx using Guid(d6ee3ef0d6f5fde48a144237af0f5fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001cfaf4833818e662b6d37cf385d1f2') in 0.053512 seconds 
+  Import took 0.056626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_RoadSign_01.fbx
+  artifactKey: Guid(95204484a97df824ea551f8a6cd1151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_RoadSign_01.fbx using Guid(95204484a97df824ea551f8a6cd1151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f0857fe0915e07bc3fc2f980df974b') in 0.025452 seconds 
+  Import took 0.029832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_02.fbx
+  artifactKey: Guid(e3b8cca8eb23846499313ea70009d70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_02.fbx using Guid(e3b8cca8eb23846499313ea70009d70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6051e2c8d0d8e848f47025e98ad1f303') in 0.047922 seconds 
+  Import took 0.051590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Chair_01.fbx
+  artifactKey: Guid(18577659ee8367546a2b4345536495e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Chair_01.fbx using Guid(18577659ee8367546a2b4345536495e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeee2752910cba3ca33bdcbf4ae3e696') in 0.055366 seconds 
+  Import took 0.059655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Poker_Chip_02.fbx
+  artifactKey: Guid(30a5b2ce8fbfe0644976ea5dd14517ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Poker_Chip_02.fbx using Guid(30a5b2ce8fbfe0644976ea5dd14517ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb1a2d2a6b94f9db7b0757c39c06f96') in 0.038497 seconds 
+  Import took 0.041883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Card_Pile_01.fbx
+  artifactKey: Guid(20f1da6626b84f142b7b73ef23f8b472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Card_Pile_01.fbx using Guid(20f1da6626b84f142b7b73ef23f8b472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2138b8cfec29d2f80611479078535060') in 0.033113 seconds 
+  Import took 0.037510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Stick_02.fbx
+  artifactKey: Guid(005d0e436e6fa074a9ed36374c7200dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Stick_02.fbx using Guid(005d0e436e6fa074a9ed36374c7200dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e8854bd133790e800d0018ba7d5a0b') in 0.037265 seconds 
+  Import took 0.041970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_American_Bayonet_Sheath.fbx
+  artifactKey: Guid(0dbbc51eb1c85b943b16ed4afb681b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_American_Bayonet_Sheath.fbx using Guid(0dbbc51eb1c85b943b16ed4afb681b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7731278626bb9ff93fd9cda5196b62ba') in 0.038665 seconds 
+  Import took 0.042762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Saloon_Swinging_Doors_01.fbx
+  artifactKey: Guid(b52a255610f9fa944b2abd969aede17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Saloon_Swinging_Doors_01.fbx using Guid(b52a255610f9fa944b2abd969aede17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c4333ca197ff77c1426095c62b8763') in 0.028306 seconds 
+  Import took 0.033000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Cup_01.fbx
+  artifactKey: Guid(01ca46dca8110be46968fff207ce9393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Cup_01.fbx using Guid(01ca46dca8110be46968fff207ce9393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f96b3ad0d68d9b7ce04f54132121fcd') in 0.031362 seconds 
+  Import took 0.037048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006625 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Loghalf_02.fbx
+  artifactKey: Guid(c90508e263abfb94d9b5dfa0213fda4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Loghalf_02.fbx using Guid(c90508e263abfb94d9b5dfa0213fda4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2794e70238cc3dded2bc95bf0b3e85') in 0.040639 seconds 
+  Import took 0.045899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Bottle_05.fbx
+  artifactKey: Guid(c666ab606086aed4eafe459feb139100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Bottle_05.fbx using Guid(c666ab606086aed4eafe459feb139100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb6d830a832e31473d3b22d9535c7de') in 0.035552 seconds 
+  Import took 0.041272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_GoldBar_01.fbx
+  artifactKey: Guid(6fe150968adf90d4c84fcac37387c034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_GoldBar_01.fbx using Guid(6fe150968adf90d4c84fcac37387c034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a073a8faa0871d5e2a377b5a01e6a12') in 0.036436 seconds 
+  Import took 0.041576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/PolygonWestern/Models/SM_Veh_Train_01.fbx
+  artifactKey: Guid(f4ef47442960c8f418dc6d627fd7fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Veh_Train_01.fbx using Guid(f4ef47442960c8f418dc6d627fd7fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d97eecc780a4216fccae5c0ef57d4b') in 0.187094 seconds 
+  Import took 0.192052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Stick_01.fbx
+  artifactKey: Guid(b953fc566355b7840ab63016a99ef34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Stick_01.fbx using Guid(b953fc566355b7840ab63016a99ef34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcc02f2282a017face7f9233296370b') in 0.048069 seconds 
+  Import took 0.052789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_DeckRail_02.fbx
+  artifactKey: Guid(67eeea6980866434bae0acd67f3b53c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_DeckRail_02.fbx using Guid(67eeea6980866434bae0acd67f3b53c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8378a8fb2aa15984888d47028bf11') in 0.054156 seconds 
+  Import took 0.057847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Desk_01.fbx
+  artifactKey: Guid(471e5f7a03940164580615fa0367fde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Desk_01.fbx using Guid(471e5f7a03940164580615fa0367fde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2d9d71feab05c8f064fa7e10655927') in 0.051868 seconds 
+  Import took 0.055323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonWestern/Models/SM_Wep_Revolver_01.fbx
+  artifactKey: Guid(1213213946b39114083bc78376da0569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Wep_Revolver_01.fbx using Guid(1213213946b39114083bc78376da0569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79269ae2006f78b3f667cd556ae132b3') in 0.103353 seconds 
+  Import took 0.108124 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
