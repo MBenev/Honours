@@ -52,7 +52,8 @@ public class Player : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-
+        //Camera.main.transform.rotation = Quaternion.Euler();
+        //gameObject.transform.rotation = new Quaternion(0, 0, 0, 90);
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
