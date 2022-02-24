@@ -147,5 +147,11 @@ public class Player : MonoBehaviour
             started = true;
             TeleportPlayer();
         }
+        if(other.name == "Death Fog")
+        {
+            print("crash");
+            //other.transform.Translate(-other.GetComponent<DeathFog>().direction * Time.deltaTime * 10);
+            other.GetComponent<DeathFog>().GoBack();
+        }
     }
 }
