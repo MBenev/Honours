@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
-
+    public GameObject waypoint;
 
 
     [SerializeField] private int collected;
@@ -131,7 +131,8 @@ public class Player : MonoBehaviour
     private void TeleportPlayer()
     {
         characterController.enabled = false;
-        gameObject.transform.position = new Vector3(40, 2, 15);
+        //gameObject.transform.position = new Vector3(40, 2, 15);
+        gameObject.transform.position = waypoint.transform.position;
         characterController.enabled = true;
     }
 
@@ -149,7 +150,7 @@ public class Player : MonoBehaviour
         }
         if(other.name == "Death Fog")
         {
-            print("crash");
+            //print("crash");
             //other.transform.Translate(-other.GetComponent<DeathFog>().direction * Time.deltaTime * 10);
             other.GetComponent<DeathFog>().GoBack();
         }

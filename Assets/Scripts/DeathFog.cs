@@ -19,8 +19,7 @@ public class DeathFog : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        MoveFog();
-        
+        MoveFog();        
     }
 
     private void MoveFog()
@@ -51,12 +50,12 @@ public class DeathFog : MonoBehaviour
     IEnumerator ExampleCoroutine()
     {
         //Print the time of when the function is first called.
-        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+        //Debug.Log("Started Coroutine at timestamp : " + Time.time);
 
         //yield on a new YieldInstruction that waits for 5 seconds.
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(5);
         text.SetActive(false);
         //After we have waited 5 seconds print the time again.
-        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+        //Debug.Log("Finished Coroutine at timestamp : " + Time.time);
     }
 }
