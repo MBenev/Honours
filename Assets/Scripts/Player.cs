@@ -153,6 +153,7 @@ public class Player : MonoBehaviour
         {
             //print("crash");
             //other.transform.Translate(-other.GetComponent<DeathFog>().direction * Time.deltaTime * 10);
+            data.Add("Collided with Death Fog");
             other.GetComponent<DeathFog>().GoBack();
         }
     }
