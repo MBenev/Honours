@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 [RequireComponent(typeof(CharacterController))]
 
@@ -127,6 +128,23 @@ public class Player : MonoBehaviour
         {
             print(x.ToString());
         }
+
+
+        string path = Directory.GetCurrentDirectory() + "/test.txt";
+        //string path = "D:/Educational/temp/Honours" + "/test.txt";
+
+        //Write some text to the test.txt file
+        StreamWriter writer = new StreamWriter(path, true);
+        foreach (var x in data)
+        {
+            writer.WriteLine((x.ToString()));
+        }
+        //writer.WriteLine("Test");
+        writer.Close();
+        //StreamReader reader = new StreamReader(path);
+        //Print the text from the file
+        //Debug.Log(reader.ReadToEnd());
+        //reader.Close();
     }
 
     private void TeleportPlayer(int i)
