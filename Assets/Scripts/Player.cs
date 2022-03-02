@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
-    public GameObject waypoint;
+    public GameObject[] waypoint;
 
 
     [SerializeField] private int collected;
@@ -129,11 +129,11 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void TeleportPlayer()
+    private void TeleportPlayer(int i)
     {
         characterController.enabled = false;
         //gameObject.transform.position = new Vector3(40, 2, 15);
-        gameObject.transform.position = waypoint.transform.position;
+        gameObject.transform.position = waypoint[i].transform.position;
         characterController.enabled = true;
     }
 
@@ -147,7 +147,13 @@ public class Player : MonoBehaviour
         if(other.name == "Start Game Portal")
         {
             started = true;
-            TeleportPlayer();
+            int i = 0;
+            TeleportPlayer(i);
+        }
+        if(other.name == "First Room Portal")
+        {
+            int i = 1;
+            TeleportPlayer(i);
         }
         if(other.name == "Death Fog")
         {
