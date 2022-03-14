@@ -173,7 +173,12 @@ public class Player : MonoBehaviour
             int i = 1;
             TeleportPlayer(i);
         }
-        if(other.name == "Death Fog")
+        if (other.name == "Second Room Portal")
+        {
+            int i = 2;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Death Fog")
         {
             //print("crash");
             //other.transform.Translate(-other.GetComponent<DeathFog>().direction * Time.deltaTime * 10);
