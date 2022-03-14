@@ -42,6 +42,14 @@ public class DeathFog : MonoBehaviour
         //text.SetActive(false);
     }
 
+    public void GoBackCollectable()
+    {
+        //text.SetActive(true);
+        gameObject.transform.Translate(-direction * Time.deltaTime * backStrength);
+        //StartCoroutine(ExampleCoroutine());
+        //text.SetActive(false);
+    }
+
     public Vector3 GetDirection()
     {
         return direction;

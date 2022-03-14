@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
     public GameObject[] waypoint;
-
+    public GameObject deathFog;
 
     [SerializeField] private int collected;
 
@@ -110,6 +110,8 @@ public class Player : MonoBehaviour
     public void AddCollected()
     {
         collected++;
+        //GetComponent<DeathFog>().GoBack();
+        deathFog.GetComponent<DeathFog>().GoBackCollectable();
     }
 
     public void ClearCollected()
