@@ -180,6 +180,11 @@ public class Player : MonoBehaviour
             int i = 2;
             TeleportPlayer(i);
         }
+        if (other.name == "Third Room Portal ")
+        {
+            int i = 3;
+            TeleportPlayer(i);
+        }
         if (other.name == "Death Fog")
         {
             //print("crash");
