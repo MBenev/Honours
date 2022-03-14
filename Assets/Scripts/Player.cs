@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
 
     [HideInInspector]
     public bool canMove = true;
+    Vector3 deathFogAfterTeleport = new Vector3(0.0f, 0.0f, -60.0f);
 
     public static Player Instance
     {
@@ -155,6 +156,9 @@ public class Player : MonoBehaviour
         //gameObject.transform.position = new Vector3(40, 2, 15);
         gameObject.transform.position = waypoint[i].transform.position;
         characterController.enabled = true;
+        deathFog.transform.position=gameObject.transform.position - deathFogAfterTeleport;
+        deathFog.transform.position = new Vector3(deathFog.transform.position.x, 26.2f, deathFog.transform.position.z);
+        //deathFog.transform.position = (deathFog.transform.position.x, 26.2f, deathFog.transform.position.z);
     }
 
     private void OnTriggerEnter(Collider other)
