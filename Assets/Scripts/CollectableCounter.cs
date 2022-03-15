@@ -16,6 +16,6 @@ public class CollectableCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = Player.Instance.GetCollected().ToString() + " / Maximum";
+        text.text = Player.Instance.GetCollected().ToString() + " / 21";
     }
 }

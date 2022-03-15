@@ -8,6 +8,7 @@ public class DeathFog : MonoBehaviour
     [SerializeField] public Vector3 direction = new Vector3(0.0f, 0.0f, 0.0f);
     [SerializeField] public float backStrength = 1000.0f;
     int lastFrame;
+    public int strength = 10;
 
     public GameObject text;
     // Start is called before the first frame update
@@ -29,7 +30,7 @@ public class DeathFog : MonoBehaviour
             lastFrame = Time.frameCount;
             if (Player.Instance.started)
             {
-                gameObject.transform.Translate(direction*Time.deltaTime);
+                gameObject.transform.Translate(direction*Time.deltaTime*strength);
             }
         }        
     }

@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
 
     public GameObject left;
     public GameObject right;
+    public int leftChoices = 0;
+    public int rightChoices = 0;
+    public string preference;
 
     [SerializeField] private int collected;
 
@@ -132,13 +135,22 @@ public class Player : MonoBehaviour
 
     private void OutputData()
     {
+        if (leftChoices > rightChoices)
+        {
+            preference = "Left Preference";
+        }
+        if (rightChoices > leftChoices)
+        {
+            preference = "Right Preference";
+        }
+        data.Add(preference);
         foreach (var x in data)
         {
             print(x.ToString());
         }
 
 
-        string path = Directory.GetCurrentDirectory() + "/test.txt";
+        string path = Directory.GetCurrentDirectory() + "/Data.txt";
         //string path = "D:/Educational/temp/Honours" + "/test.txt";
 
         //Write some text to the test.txt file
@@ -172,7 +184,15 @@ public class Player : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             data.Add(other.name);
-            if(other.name == "Directional Lines")
+            if(other.gameObject.layer == 6)
+            {
+                leftChoices++;
+            }
+            if (other.gameObject.layer == 7)
+            {
+                rightChoices++;
+            }
+            if (other.name == "Directional Lines")
             {
                 elevation.SetActive(false);
             }
@@ -249,6 +269,11 @@ public class Player : MonoBehaviour
         {
             int i = 7;
             TeleportPlayer(i);
+        }
+        if (other.name == "Final Portal" || other.name == "Final Portal (1)")
+        {
+            OutputData();
+            Application.Quit();
         }
         if (other.name == "Death Fog")
         {
