@@ -24,6 +24,11 @@ public class Player : MonoBehaviour
     float rotationX = 0;
     public GameObject[] waypoint;
     public GameObject deathFog;
+    public GameObject elevation;
+    public GameObject directionalLines;
+
+    public GameObject left;
+    public GameObject right;
 
     [SerializeField] private int collected;
 
@@ -167,6 +172,22 @@ public class Player : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             data.Add(other.name);
+            if(other.name == "Directional Lines")
+            {
+                elevation.SetActive(false);
+            }
+            if (other.name == "Elevation")
+            {
+                directionalLines.SetActive(false);
+            }
+            if(other.name== "Final Room Right")
+            {
+                left.SetActive(false);
+            }
+            if(other.name== "Final Room Left")
+            {
+                right.SetActive(false);
+            }
         }
         if(other.name == "Start Game Portal")
         {
