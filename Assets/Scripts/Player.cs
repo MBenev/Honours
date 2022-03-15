@@ -189,6 +189,46 @@ public class Player : MonoBehaviour
             int i = 3;
             TeleportPlayer(i);
         }
+        if (other.name == "Fourth Room Portal Left")
+        {
+            int i = 4;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Fourth Room Portal Right")
+        {
+            int i = 4;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Fifth Room Portal Left")
+        {
+            int i = 5;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Fifth Room Portal Right")
+        {
+            int i = 5;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Sixth Room Portal Left")
+        {
+            int i = 6;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Sixth Room Portal Right")
+        {
+            int i = 6;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Seventh Room Portal Left")
+        {
+            int i = 7;
+            TeleportPlayer(i);
+        }
+        if (other.name == "Seventh Room Portal Right")
+        {
+            int i = 7;
+            TeleportPlayer(i);
+        }
         if (other.name == "Death Fog")
         {
             //print("crash");
