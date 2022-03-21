@@ -36,6 +36,8 @@ public class Player : MonoBehaviour
     [SerializeField] private int collected;
 
     private List<string> data = new List<string>();
+    const string glyphs = "abcdefghijklmnopqrstuvwxyz0123456789"; //add the characters you want
+    string uniqueID;
 
     [HideInInspector]
     public bool canMove = true;
@@ -110,10 +112,10 @@ public class Player : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            OutputData();
-        }
+        //if (Input.GetKeyDown(KeyCode.Return))
+        //{
+        //    OutputData();
+        //}
     }
 
     public void AddCollected()
@@ -149,8 +151,14 @@ public class Player : MonoBehaviour
             print(x.ToString());
         }
 
+        for (int i = 0; i < 10; i++)
+        {
+            uniqueID += glyphs[Random.Range(0, glyphs.Length)];
+        }
 
-        string path = Directory.GetCurrentDirectory() + "/Data.txt";
+
+
+        string path = Directory.GetCurrentDirectory() + "/Data " + uniqueID + ".txt";
         //string path = "D:/Educational/temp/Honours" + "/test.txt";
 
         //Write some text to the test.txt file
